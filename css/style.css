@@ -1,0 +1,108 @@
+.splash{
+    width: 100%;
+    background-color: rgb(48, 54, 49);
+}
+body{
+    background: rgb(48, 54, 49);
+    margin-right: 8rem;
+    margin-left: 8rem;
+    
+}
+nav{
+    float: left;
+    width: 100%;
+    background-color: rgb(48, 54, 49);
+    position: fixed;
+    
+}
+nav ul{
+    list-style: none;
+    margin:0 0px 0 0px;
+}
+nav ul li{
+    background-color:  rgb(48, 54, 49);
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+nav ul a:hover{
+    color: whitesmoke;
+    background-color: #6e6e6e;
+    
+}
+section{
+    margin-top: 10rem;
+    margin-left: 1rem;
+    margin-right: 20rem;
+}
+p{
+    font-family: arial;
+    font-size: 100%;
+    color:rgb(161, 161, 161)
+}
+h2{
+    font-family: arial;
+    font-size: 100%;
+}
+table{
+    width: 100%
+}
+td{
+    background-color: rgb(63, 63, 63);
+}
+article{
+    float: left;
+    min-height: 500;
+    text-align: justify;
+}
+.lateral{
+    background: rgb(44, 44, 44);
+    margin-top: 13rem;
+    margin-right: 2rem;
+    float: right;
+    width: 280px;
+    
+}
+#main{
+    max-width: 960px; min-width: 320px; margin: 0 auto;
+}
+.botonpie:hover{
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+	-webkit-transform:  width 0.5s, height 0.5s, transform 0.5s;
+	-o-transform:  width 0.5s, height 0.5s, transform 0.5s;
+	
+	transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.p1{
+    size: 24px;
+}
+.t1{
+    font-size: 42px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulos{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.ft{
+    margin-top: 10rem;
+    background-color: rgb(71, 71, 71);
+}
