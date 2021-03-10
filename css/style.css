@@ -11,36 +11,37 @@ body{
     
 }
 li{
-    list-style: none;
-    }
-    nav {
-    text-align: center;
-    }
-    nav ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    /* Para IE 7*/
-    zoom:1;
-    *display: inline;
-    }
-    nav li {
-    float: left;
-    padding: 2px 5px;
-    margin: 50px;
-  
-    }
-    nav li a{
-    text-decoration: none;
-    font-family: Ubuntu;
-    color: #000;
-    }
-    nav li a:hover{
-        color: gray;
-    }
-    .navs{
-        font-size: 18pt;
-    }
+list-style: none;
+}
+nav {
+text-align: center;
+background-color: rgb(82, 174, 235);
+}
+nav ul {
+display: inline-block;
+margin: 0;
+padding: 0;
+/* Para IE 7*/
+zoom:1;
+*display: inline;
+}
+nav li {
+float: left;
+padding: 2px 5px;
+margin: 50px;
+
+}
+nav li a{
+text-decoration: none;
+font-family: Ubuntu;
+color: rgb(255, 255, 255);
+}
+nav li a:hover{
+    color: gray;
+}
+.navs{
+    font-size: 12pt;
+}
 p{
     font-family: arial;
     font-size: 100%;
@@ -69,6 +70,9 @@ article{
     width: 280px;
     
 }
+.imgcat{
+    width: 300px;
+}
 #main{
     max-width: 960px; min-width: 320px; margin: 0 auto;
 }
@@ -87,16 +91,21 @@ article{
 }
 .t1{
     font-size: 42px;
-    color: rgb(0, 0, 0);
+    color: rgb(77, 77, 77);
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    font-style:oblique;
+}
+.sp1{
+    color: red;
 }
 .titulos{
 
     font-family: 'Ubuntu';
     font-style: italic;
-    color: black;
+    color: rgb(80, 80, 80);
     text-align: center;
+    font-weight: 400;
 }
 .ft{
     margin-top: 10rem;
