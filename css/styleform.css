@@ -1,0 +1,10 @@
+form{
+    align-items: center;
+}
+form{
+    width: 40%;
+    margin: 0 auto;
+}
+fieldset{
+    border-radius: 10px;
+}
