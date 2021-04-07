@@ -198,3 +198,79 @@ article{
     }
 }
 
+.letterspace{
+    letter-spacing: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .linespaces{
+        font-size: 2.5em;
+        line-height: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+    p.alineacion-izquierda{
+        text-align: left;
+        font-size: 2.5em;
+    }
+    p.alineacion-derecha{
+        text-align: right;
+        font-size: 2.5em;
+    }
+    p.alineacion-central{
+        text-align: center;
+        font-size: 2.5em;
+    }
+    p.alineacion-justificada{
+        text-align: justify;
+        font-size: 2.5em;
+    }
+    p.indentado{
+        text-align: justify;
+        font-size: 2.5em;
+        text-indent: 10em;
+    }
+    .letra{
+        font-size: 5em;
+    }
+    blockquote{
+        text-align: right;
+        font-style: italic;
+        color: rgb(100,233,255);
+    }
+    .margenes{
+        background-color: lightgray;
+        width: 400px;
+        height: 400px;
+        margin: 50px 50px 50px 50px;
+        display: inline-block;
+    }
+    .divprincipal{
+        background-color: gray;
+    }
+    .mipadding{
+        border: solid 3px black;
+        padding: 10px;
+        background-color:pink;
+        text-align: justify;
+        width: 370px;
+        display: inline-block;
+        margin: 50px 50px 50px 50px;
+    }
+    .mipadding2{
+        border: dotted 3px black;
+        padding: 10px;
+        background-color:blue;
+         text-align: justify;
+        width: 370px;
+        display: inline-block;
+        margin: 50px 50px 50px 50px;
+    }
+    .mipadding3{
+        border: double 3px black;
+        padding: 10px;
+        background-color: aqua;
+         text-align: justify;
+        width: 370px;
+        display: inline-block;
+        margin: 50px 50px 50px 50px;
+    }
