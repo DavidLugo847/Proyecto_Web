@@ -28,7 +28,7 @@ zoom:1;
 nav li {
 float: left;
 padding: 2px 5px;
-margin: 50px;
+margin: 15px;
 
 }
 nav li a{
@@ -40,7 +40,7 @@ nav li a:hover{
     color: gray;
 }
 .navs{
-    font-size: 12pt;
+    font-size: 9pt;
 }
 p{
     font-family: arial;
@@ -90,7 +90,7 @@ article{
     size: 24px;
 }
 .t1{
-    font-size: 42px;
+    font-size: 18px;
     color: rgb(77, 77, 77);
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -246,6 +246,53 @@ article{
     }
     .divprincipal{
         background-color: gray;
+    }
+    .contenedores{
+        background-color: #fafafa;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #ccc;
+        text-align: center;
+    }
+    .cont1, .cont2, .cont3, .cont4, .cont5, .cont6{
+        width: 300px;
+        height: 300px;
+        margin: 50px 50px 50px 50px;
+        display: inline-block;
+        border-radius: 10pt 10pt 0 0;
+    }
+    .cont1{
+        background-color: rgb(90, 140, 235);
+    }
+    .cont2{
+        background-color: rgb(88, 202, 103);
+    }
+    .cont3{
+        background-color: rgb(221, 98, 98);
+    }
+    .cont4{
+        background-color: rgb(199, 81, 173);
+    }
+    .cont5{
+        background-color: rgb(196, 182, 60);
+    }
+    .cont6{
+        background-color: rgb(95, 92, 85);
+    }
+    .text-div{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .text-div:hover{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    .text-div-down{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-style:oblique;
     }
     .mipadding{
         border: solid 3px black;
