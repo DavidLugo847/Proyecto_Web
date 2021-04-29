@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .splash{
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -6,9 +10,7 @@ head{
     background-color: black;
 }
 body{
-    background: rgb(255, 255, 255);
-    
-    
+    background: rgb(255, 255, 255); 
 }
 li{
 list-style: none;
@@ -247,6 +249,7 @@ article{
     .divprincipal{
         background-color: gray;
     }
+    /*Contenedores de Categorias*/
     .contenedores{
         background-color: #fafafa;
         margin: 1rem;
@@ -256,6 +259,7 @@ article{
     }
     .cont1, .cont2, .cont3, .cont4, .cont5, .cont6{
         width: 300px;
+        padding-top: 10px;
         height: 300px;
         margin: 50px 50px 50px 50px;
         display: inline-block;
@@ -280,6 +284,7 @@ article{
         background-color: rgb(95, 92, 85);
     }
     .text-div{
+        padding-bottom: 10px;
         font-family: 'Ubuntu', sans-serif;
         text-align: center;
         color: white;
@@ -321,3 +326,22 @@ article{
         display: inline-block;
         margin: 50px 50px 50px 50px;
     }
+
+    /* Bloques html*/
+
+.c1, .c2, .c3{
+    margin: 10px 10px 10px 10px;
+}
+.c1{
+    float: left;
+}
+.c3{
+    float: right;
+    margin-right: 50px;
+}
+.t1{
+    font-size: 24pt;
+    text-align: justify;
+    margin-top: 2em;
+}
+
