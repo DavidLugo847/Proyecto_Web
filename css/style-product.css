@@ -157,3 +157,46 @@ li{
     display: inline-block;
     margin: 50px 50px 50px 50px;
 }
+
+/*Categorias internas de productos*/
+.categoria-int-tecnologia{
+    background-color: #fafafa;
+    margin: 1rem;
+    text-align: center;
+}
+.cat-tecnologia{
+    width: 200px;
+    padding-top: 10px;
+    height: 30px;
+    margin: 2px 30px 2px 30px;
+    display: inline-block;
+    border-radius: 7pt 7pt 7pt 7pt;
+    background-color: rgb(90, 140, 235);
+}
+.text-div-down-cat-tecnologia{
+    padding-top: 1px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.categoria-int-deportes{
+    background-color: #fafafa;
+    margin: 1rem;
+    text-align: center;
+}
+.cat-deportes{
+    width: 200px;
+    padding-top: 10px;
+    height: 30px;
+    margin: 2px 30px 2px 30px;
+    display: inline-block;
+    border-radius: 7pt 7pt 7pt 7pt;
+    background-color: rgb(88, 202, 103);
+}
+.text-div-down-cat-deportes{
+    padding-top: 1px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
