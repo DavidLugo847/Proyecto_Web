@@ -347,3 +347,35 @@ article{
         
     }
 }
+
+
+/*Estilos de la tabla en bloques.html*/
+
+.tbloque{
+    width: 1000px;
+}
+.td1{
+    border: rgb(57, 134, 49) 8px ridge;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(57, 134, 49);
+    width: 600px;
+    height: 50px;
+}
+.td1 p{
+    text-align: center;
+    color: white;
+}
+
+.td2, .td3, .td4, .td5, .td6{
+    border: white 8px inset;
+    background-color: rgb(122, 122, 122);
+    width: auto;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.td2, .td3, .td4, .td5, .td6, td p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
