@@ -12,38 +12,7 @@ head{
 body{
     background: rgb(255, 255, 255); 
 }
-li{
-list-style: none;
-}
-nav {
-text-align: center;
-background-color: rgb(82, 174, 235);
-}
-nav ul {
-display: inline-block;
-margin: 0;
-padding: 0;
-/* Para IE 7*/
-zoom:1;
-*display: inline;
-}
-nav li {
-float: left;
-padding: 2px 5px;
-margin: 15px;
 
-}
-nav li a{
-text-decoration: none;
-font-family: Ubuntu;
-color: rgb(255, 255, 255);
-}
-nav li a:hover{
-    color: gray;
-}
-.navs{
-    font-size: 9pt;
-}
 p{
     font-family: arial;
     font-size: 100%;
@@ -355,7 +324,7 @@ article{
     width: 1000px;
 }
 .td1{
-    border: rgb(57, 134, 49) 8px ridge;
+    border: rgb(57, 134, 49) 8px;
     border-radius: 5px 5px 5px 5px;
     background-color: rgb(57, 134, 49);
     width: 600px;
@@ -367,7 +336,7 @@ article{
 }
 
 .td2, .td3, .td4, .td5, .td6{
-    border: white 8px inset;
+    border: white 8px;
     background-color: rgb(122, 122, 122);
     width: auto;
     height: 50px;

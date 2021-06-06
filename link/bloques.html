@@ -9,16 +9,29 @@
     <meta name="keywords" content="HTML,CSS3,JavaScript">
     <title>MarketZone - Compra toda clase de elementos.</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-menu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="titulo-principal">Ciudades del Mundo</h1>
+    
     
     <header>
-        <div class="image-menu">
+        <div class="content-menu-hidden">
+            <nav>
+             <ul id="lista">
+                 
+                 <li><a class="navs" title="Volver al Inicio" href="../index.html">Inicio</a></li>
+                 <li><a class="navs" title="Encuentra lo que necesites" href="../enlaces/musica.html">Categorias</a></li>
+                 <li><a class="navs" title="Unboxing de Productos" href="../enlaces/deportes.html">Carrito de compras</a></li>
+                 <li><a class="navs" title="Formulario de Compra" href="formcompra.html">Busqueda de Productos</a></li>
+             </ul>
+             </nav>
+             </div>
+
+        <div class="content-menu">
        <nav>
         <ul id="lista">
             
@@ -26,10 +39,13 @@
             <li><a class="navs" title="Encuentra lo que necesites" href="../enlaces/musica.html">Categorias</a></li>
             <li><a class="navs" title="Unboxing de Productos" href="../enlaces/deportes.html">Carrito de compras</a></li>
             <li><a class="navs" title="Formulario de Compra" href="formcompra.html">Busqueda de Productos</a></li>
+            <li><a class="navs" title="Ejemplo de Menu con Posicion Absoluta" href="menu-absolute.html">Menu Position Absolute</a></li>
+            <li><a class="navs" title="Ejemplo de Menu con Posicion Fixed" href="menu-fixed.html">Menu Position Fixed</a></li>
         </ul>
         </nav>
         </div>
     </header>
+    <h1 id="titulo-principal">Ciudades del Mundo</h1>
 
    <!-- <center><h1 class="letterspace">Espaciado de Letra</h1></center>
 <p class="linespaces" >
@@ -149,23 +165,27 @@
     <td class="td1"><p>ID</p></td>
     <td class="td1"><p>NOMBRES</p></td>
     <td class="td1"><p>APELLIDOS</p></td>
-    <td class="td1"><p>TELEFONO</p</td>
+    <td class="td1" colspan="2"><p>TELEFONO</p</td>
     <td class="td1"><p>EDAD</p></td>
     <td class="td1"><p>EMAIL</p></td>
+    <td class="td1"><p>CIUDAD</p></td>
 </tr>
 <tr>
     <td class="td2">1</td>
     <td class="td2">Andrea</td>
     <td class="td2">Sanchez Gomez</td>
     <td class="td2">3123123232</td>
+    <td class="td2">3132259690</td>
     <td class="td2">16</td>
     <td class="td2">andrea@mail.com</td>
+    <td class="td2" rowspan="3">Pitalito</td>
     </tr>
 <tr>
     <td class="td3">2</td>
     <td class="td3">Elver</td>
     <td class="td3">Galarga Sanchez</td>
     <td class="td3">3129499598</td>
+    <td class="td2">3148586990</td>
     <td class="td3">19</td>
     <td class="td3">elver@mail.com</td>
 </tr>
@@ -174,6 +194,7 @@
     <td class="td4">Zacarias</td>
     <td class="td4">Mota Perez</td>
     <td class="td4">3219994404</td>
+    <td class="td2">3209859976</td>
     <td class="td4">22</td>
     <td class="td4">zacarias@mail.com</td>
 </tr>
@@ -182,16 +203,20 @@
     <td class="td5">Maria Jose</td>
     <td class="td5">Martinez Ortiz</td>
     <td class="td5">3119495504</td>
+    <td class="td2">3123123232</td>
     <td class="td5">16</td>
     <td class="td5">maria@mail.com</td>
-    </tr>
+    <td class="td2">Neiva</td>
+</tr>
 <tr>
     <td class="td6">5</td>
     <td class="td6">David</td>
     <td class="td6">Santos</td>
     <td class="td6">3132833525</td>
+    <td class="td2">3193093383</td>
     <td class="td6">19</td>
     <td class="td6">krt847@gmail.com</td>
+    <td class="td2">Florencia</td>
 </tr>
 
 
