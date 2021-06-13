@@ -1,0 +1,73 @@
+body{
+    background-image: url(../images/jdm-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+li{
+    list-style: none;
+    }
+    nav {
+    text-align: center;
+
+    }
+    nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    zoom:1;
+    *display: inline;
+    }
+    .content-menu-hidden{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+    }
+    .content-menu{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+/*Ejemplo de Fixed y Absolute*/
+    .content-menu-absolute{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .content-menu{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .nav-example-absolute{
+        text-align: center;
+    
+        }
+    .nav-example-fixed{
+        text-align: center;
+    
+        }
+        
+    /*Fin del Ejemplo*/
+
+
+    nav li {
+    float: left;
+    padding: 2px 5px;
+    margin: 15px;
+    }
+    nav li a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    color: rgb(255, 255, 255);
+    }
+    nav li a:hover{
+        color: gray;
+    }
+    .navs{
+        font-size: 9pt;
+    }
