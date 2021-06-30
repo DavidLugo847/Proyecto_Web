@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 1.4em;
+    background: darkgray;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: table;
+    background: darkgray;
+    position: absolute;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 0 3em;
+    color:black,
+}
+
+nav > ul > li{
+    float: left;
+    width: 320px;
+    line-height: 70px;
+}
+nav li{
+    position: relative;
+}
+nav li li{
+    max-height: 0;
+    transition: all 1s;
+}
+nav li:hover > ul > li{
+    visibility: visible;
+    max-height: 500px;
+    overflow: visible;
+}
+nav ul ul ul{
+    left: 100%;
+    top: 0;
+}
