@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contenedores{
+    margin-left: 8px;
+    padding-left: 8px;
+    text-align: justify;
+    transition-delay: 1s;
+    float: left;
+}
+#contenedor {
+    width: 500px;
+    display: inline-block; 
+    margin: 50px 50px 50px 50px;
+    }
+
+.imgly{
+    width: 500px;
+}
+
+
+li{
+    list-style: none;
+    }
+    nav {
+    text-align: center;
+    background-color: rgb(82, 174, 235);
+    }
+    nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    zoom:1;
+    *display: inline;
+    }
+    .content-menu-hidden{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+    }
+    .content-menu{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+/*Ejemplo de Fixed y Absolute*/
+    .content-menu-absolute{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .content-menu{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .nav-example-absolute{
+        text-align: center;
+        background-color: rgba(82, 174, 235, 0.5);
+        }
+    .nav-example-fixed{
+        text-align: center;
+        background-color: rgb(82, 174, 235);
+        }
+        
+    /*Fin del Ejemplo*/
+
+
+    nav li {
+    float: left;
+    padding: 2px 5px;
+    margin: 15px;
+    }
+    nav li a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    color: rgb(255, 255, 255);
+    }
+    nav li a:hover{
+        color: gray;
+    }
+    .navs{
+        font-size: 9pt;
+    }
+
+
+
+
+
+
+
+
+/*Pantallas medianas PC*/
+@media only screen and (min-width:1024px) and (max-width:1680px){
+    body{
+        background-color: darkcyan;
+    }
+    #contenedores{
+        margin-left: 10px;
+        padding-left: 10px;
+        text-align: justify;
+        -moz-box-flex: 1s;
+        transition-delay: 1s;
+        float: left;
+    }
+    #contenedor {
+        width: 500px;
+        display: inline-block; 
+        margin: 50px 50px 50px 50px;
+        }
+      #principal  {
+        display: table;    
+    }
+}
+      
+/*Pantallas */
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+    body{
+        background-color: rgb(255, 102, 128);
+    }
+    #contenedores{
+        margin-left: 10px;
+        padding-left: 10px;
+        text-align: justify;
+        -moz-box-flex: 1s;
+        transition-delay: 1s;
+        float: left;
+    }
+    #contenedor {
+        width: 400px;
+        display: inline-block; 
+        margin: 50px 50px 50px 50px;
+        }
+     
+    .imgly{
+        width: 400px;
+    }
+    
+    
+}
+@media only screen and (max-width:767px){
+    body{
+        background-color: rgb(255, 183, 0);
+    }
+    #contenedores{
+        display: block;
+        margin-left: 10px;
+        padding-left: 10px;
+        text-align: justify;
+        -moz-box-flex: 1s;
+        transition-delay: 1s;
+    }
+    #contenedor {
+        width: 300px;
+        display: inline-block; 
+        margin: 50px 50px 50px 50px;
+        }
+     
+    .imgly{
+        width: 300px;
+    }
+
+   
+}
