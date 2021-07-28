@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #252528;
+    color:rgba(255, 255, 255, .4)
+}
+h1{
+    font-size: 1.5em;
+    text-align: right;
+    color: rgba(255, 255, 255, .7);
+    margin: 40px 40px 35px 0px;
+    padding: 5em;
+
+}
+nav{ 
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    height: 100%;
+    padding-right: 2em;
+    padding-top: 3em;
+    z-index: 10;
+    left: -18em;
+}
+.menu{
+    list-style: none;
+    line-height: 60px;
+    margin: 2em auto 0 auto;
+    width: 16em;
+    padding-left: 0.1em;
+}
+.menu a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding-left: 3em;
+    width: 100%;
+    transition: all .5s;
+}
+.menu a:hover{
+    margin-left: 1em .5s;
+}
+.menu li{
+    box-shadow: 3px 0 rgba(255, 255, 255, .2) inset;
+    padding-left: .8em;
+    margin-bottom: 5;
+    transition: all .5s;
+    
+}
+.menu li:hover{
+    box-shadow: 15em 0 rgba(255, 255, 255, .2) inset;
+}
+.fas, .fab{
+    color: white;
+    font-size: 1em;
+    padding-right: .3em;
+
+}
+.fa-bars{
+    position: absolute;
+    z-index: 20;
+}
+label.ic-menu{
+    position: absolute;
+    z-index: 20;
+    top: 20px;
+    left: 20px;
+    font-size: 2em;
+}
+nav.mostrar{
+    left: 0;
+    transition: all 1s;
+}
+article{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: justify;
+}
