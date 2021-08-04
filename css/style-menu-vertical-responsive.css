@@ -43,6 +43,7 @@ nav{
 }
 .menu a:hover{
     margin-left: 1em .5s;
+    color: darkgray;
 }
 .menu li{
     box-shadow: 3px 0 rgba(255, 255, 255, .2) inset;
@@ -60,6 +61,7 @@ nav{
     padding-right: .3em;
 
 }
+
 .fa-bars{
     position: absolute;
     z-index: 20;
