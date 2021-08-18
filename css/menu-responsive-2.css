@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: #fefefe;
+}
+
+.menu-bar {
+    display: none;
+}
+
+header {
+    width: 100%;
+}
+header div a{
+    font-family: 'Roboto', sans-serif;
+}
+header nav {
+    background: #023859;
+    width: 100%;
+    /* margin: 20px auto; */
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li:hover {
+    background: #e6344a;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul li .children {
+    display: none;
+    position: absolute;
+    background: #011826;
+    text-align: left;
+}
+
+nav ul li:hover .children {
+    display: block;
+    width: 120%;
+    text-align: left;
+}
+
+nav ul li .children li {
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 255, 5);
+}
+
+nav ul li .children li a {
+    font-family: 'Roboto';
+    display: block;
+}
+
+nav ul li span {
+    margin-right: 10px;
+}
+
+nav ul li .children li a span {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+nav ul li .icon-cheveron-down {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        padding-top: 80px;
+    }
+    .menu-bar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #e6344a;
+    }
+    .menu-bar .bt-menu {
+        display: block;
+        padding: 20px;
+        color: #fff;
+        overflow: hidden;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu-bar span {
+        float: right;
+        font-size: 30px;
+    }
+    header nav {
+        width: 80%;
+        height: calc(100% - 90px);
+        position: fixed;
+        right: 100%;
+        margin: 0;
+        overflow: scroll;
+    }
+    header nav ul {
+        text-align: left;
+    }
+    header nav ul li {
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    header nav ul li a {
+        font-family: 'Roboto';
+        padding: 12px;
+        display: block;
+    }
+    header nav ul li .children {
+        position: relative;
+        width: 100%;
+    }
+    header nav ul li .children li a {
+        margin-left: 20px;
+    }
+    nav ul li .icon-cheveron-down {
+        float: right;
+    }
+    nav ul li:hover .children {
+        display: none;
+    }
+}
