@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://c.wallhere.com/photos/bc/d6/Nissan_GTR_R32_Nissan_Forza_Horizon_4_car_r32-1748001.jpg!d);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #669999;
+    overflow-y: hidden;
+}
+
+
 /* NavBar */
 
 .menu-bar {
@@ -13,7 +30,7 @@ header div a {
 }
 
 header nav {
-    background: #000000a1;
+    background: #000000d2;
     width: 100%;
     /* margin: 20px auto; */
 }
@@ -91,7 +108,7 @@ nav ul li .icon-cheveron-down {
         width: 100%;
         position: fixed;
         top: 0;
-        background: #0000008c;
+        background: #e6344a;
     }
     .menu-bar .bt-menu {
         display: block;
@@ -145,5 +162,109 @@ nav ul li .icon-cheveron-down {
     }
     nav ul li:hover .children {
         display: none;
+    }
+}
+
+
+/* Login */
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.content1 {
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.523);
+    color: white;
+    margin: 20px;
+    border-radius: 1.5em;
+}
+
+.Icon span {
+    background: #8e8e8ed6;
+    padding: 15px;
+    border-radius: 120px;
+}
+
+.Icon {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.893);
+    font-size: 5em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.content1 form .lb {
+    display: block;
+    margin-top: 1em;
+    margin-left: 5%;
+}
+
+input[type="name"],
+[type="password"] {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0 10px 0 10px;
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(53, 53, 53);
+    font-size: 1em;
+    transition: all 0.125s;
+}
+
+input[type="submit"]:hover {
+    background: #ec2c43;
+    color: white;
+}
+
+.recuperar {
+    display: block;
+    font-size: 0.9em;
+    margin-left: 5%;
+    margin-top: 1em;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .content1 {
+        width: 100%;
+        height: 450px;
+        margin: 0;
+        border-radius: 0;
+    }
+    input[type="name"],
+    [type="password"] {
+        border-radius: 0;
+        height: 50px;
+        width: 85%;
+    }
+    input[type="submit"] {
+        height: 50px;
     }
 }

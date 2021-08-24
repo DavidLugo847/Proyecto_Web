@@ -1,350 +1,371 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.splash{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
-head{
-    background-color: black;
-}
-body{
-    background: rgb(255, 255, 255); 
+    text-decoration: none;
 }
 
-p{
+body {
+    background: url(https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+    border-radius: 10px;
+}
+
+.splash {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.578);
+}
+
+head {
+    background-color: black;
+}
+
+p {
     font-family: arial;
     font-size: 100%;
-    color:rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
 }
-h2{
+
+h2 {
     font-family: arial;
     font-size: 100%;
 }
-table{
+
+table {
     width: 100%
 }
-td{
-    background-color: rgb(255, 255, 255);
+
+td {
+    background-color: rgba(255, 255, 255, 0.585);
 }
-article{
+
+article {
     float: left;
     min-height: 500;
     text-align: justify;
 }
-.lateral{
+
+.lateral {
     background: rgb(255, 255, 255);
     margin-top: 13rem;
     margin-right: 2rem;
     float: right;
     width: 280px;
-    
 }
-.imgcat{
+
+.imgcat {
     width: 300px;
 }
-#main{
-    max-width: 960px; min-width: 320px; margin: 0 auto;
+
+#main {
+    max-width: 960px;
+    min-width: 320px;
+    margin: 0 auto;
 }
-.botonpie:hover{
+
+.botonpie:hover {
     transition: width 0.5s, height 0.5s, transform 0.5s;
-	-webkit-transform:  width 0.5s, height 0.5s, transform 0.5s;
-	-o-transform:  width 0.5s, height 0.5s, transform 0.5s;
-	
-	transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-o-transform: scale(1.2);
+    -webkit-transform: width 0.5s, height 0.5s, transform 0.5s;
+    -o-transform: width 0.5s, height 0.5s, transform 0.5s;
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
-.p1{
+
+.p1 {
     size: 24px;
 }
-.t1{
-    margin:0 auto;
-    font-size: 18px;
-    color: rgb(77, 77, 77);
-    font-family: 'Ubuntu', sans-serif;
+
+h1 {
     text-align: center;
-    font-style:oblique;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-style: oblique;
 }
-.sp1{
+
+.sp1 {
     color: red;
 }
-.titulos{
 
+.titulos {
     font-family: 'Ubuntu';
     font-style: italic;
     color: rgb(80, 80, 80);
     text-align: center;
     font-weight: 400;
 }
-.ft{
+
+.ft {
     margin-top: 10rem;
     background-color: rgb(71, 71, 71);
 }
-.ft1{
+
+.ft1 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
-.letterspace{
+.letterspace {
     letter-spacing: 1em;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.linespaces {
+    font-size: 2.5em;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p.alineacion-izquierda {
+    text-align: left;
+    font-size: 2.5em;
+}
+
+p.alineacion-derecha {
+    text-align: right;
+    font-size: 2.5em;
+}
+
+p.alineacion-central {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p.alineacion-justificada {
+    text-align: justify;
+    font-size: 2.5em;
+}
+
+p.indentado {
+    text-align: justify;
+    font-size: 2.5em;
+    text-indent: 10em;
+}
+
+.letra {
+    font-size: 5em;
+}
+
+blockquote {
+    text-align: right;
+    font-style: italic;
+    color: rgb(100, 233, 255);
+}
+
+.margenes {
+    background-color: lightgray;
+    width: 400px;
+    height: 400px;
+    margin: 50px 50px 50px 50px;
+    display: inline-block;
+}
+
+.divprincipal {
+    background-color: gray;
+}
+
+
+/*Contenedores de Categorias*/
+
+.contenedores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fafafa8e;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4,
+.cont5,
+.cont6 {
+    width: 300px;
+    padding-top: 10px;
+    height: 300px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 10pt 10pt 0 0;
+}
+
+.cont1 {
+    background-color: rgb(90, 140, 235);
+}
+
+.cont2 {
+    background-color: rgb(88, 202, 103);
+}
+
+.cont3 {
+    background-color: rgb(221, 98, 98);
+}
+
+.cont4 {
+    background-color: rgb(199, 81, 173);
+}
+
+.cont5 {
+    background-color: rgb(196, 182, 60);
+}
+
+.cont6 {
+    background-color: rgb(95, 92, 85);
+}
+
+.text-div {
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.text-div:hover {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.text-div-down {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+
+.mipadding {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: pink;
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.mipadding2 {
+    border: dotted 3px black;
+    padding: 10px;
+    background-color: blue;
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.mipadding3 {
+    border: double 3px black;
+    padding: 10px;
+    background-color: aqua;
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+@media only screen and (max-width:600px) {
+    .cat-300px,
+    .text-div-down {
+        display: none;
     }
-    .linespaces{
-        font-size: 2.5em;
-        line-height: 2em;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
-    }
-    p.alineacion-izquierda{
-        text-align: left;
-        font-size: 2.5em;
-    }
-    p.alineacion-derecha{
-        text-align: right;
-        font-size: 2.5em;
-    }
-    p.alineacion-central{
+    .contenedores {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #fafafa8e;
+        border: none;
+        border-radius: 10px;
         text-align: center;
-        font-size: 2.5em;
     }
-    p.alineacion-justificada{
-        text-align: justify;
-        font-size: 2.5em;
-    }
-    p.indentado{
-        text-align: justify;
-        font-size: 2.5em;
-        text-indent: 10em;
-    }
-    .letra{
-        font-size: 5em;
-    }
-    blockquote{
-        text-align: right;
-        font-style: italic;
-        color: rgb(100,233,255);
-    }
-    .margenes{
-        background-color: lightgray;
-        width: 400px;
-        height: 400px;
-        margin: 50px 50px 50px 50px;
-        display: inline-block;
-    }
-    .divprincipal{
-        background-color: gray;
-    }
-    /*Contenedores de Categorias*/
-    .contenedores{
-        background-color: #fafafa;
-        margin: 1rem;
-        padding: 1rem;
-        border: 2px solid #ccc;
-        text-align: center;
-    }
-    .cont1, .cont2, .cont3, .cont4, .cont5, .cont6{
-        width: 300px;
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4,
+    .cont5,
+    .cont6 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100px;
         padding-top: 10px;
-        height: 300px;
-        margin: 50px 50px 50px 50px;
-        display: inline-block;
-        border-radius: 10pt 10pt 0 0;
+        height: 30px;
+        border-radius: 10pt;
     }
-    .cont1{
-        background-color: rgb(90, 140, 235);
-    }
-    .cont2{
-        background-color: rgb(88, 202, 103);
-    }
-    .cont3{
-        background-color: rgb(221, 98, 98);
-    }
-    .cont4{
-        background-color: rgb(199, 81, 173);
-    }
-    .cont5{
-        background-color: rgb(196, 182, 60);
-    }
-    .cont6{
-        background-color: rgb(95, 92, 85);
-    }
-    .text-div{
-        padding-bottom: 10px;
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        color: white;
-    }
-    .text-div:hover{
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        color: white;
-    }
-    .text-div-down{
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        font-style:oblique;
-    }
-    .mipadding{
-        border: solid 3px black;
-        padding: 10px;
-        background-color:pink;
-        text-align: justify;
-        width: 370px;
-        display: inline-block;
-        margin: 50px 50px 50px 50px;
-    }
-    .mipadding2{
-        border: dotted 3px black;
-        padding: 10px;
-        background-color:blue;
-         text-align: justify;
-        width: 370px;
-        display: inline-block;
-        margin: 50px 50px 50px 50px;
-    }
-    .mipadding3{
-        border: double 3px black;
-        padding: 10px;
-        background-color: aqua;
-         text-align: justify;
-        width: 370px;
-        display: inline-block;
-        margin: 50px 50px 50px 50px;
-    }
+}
 
-    /* Bloques html*/
 
-.c1, .c2, .c3{
+/* Bloques html*/
+
+.c1,
+.c2,
+.c3 {
     margin: 10px 10px 10px 10px;
 }
-.c1{
+
+.c1 {
     float: left;
 }
-.c3{
+
+.c3 {
     float: right;
     margin-right: 50px;
 }
-.t1{
+
+.t1 {
     font-size: 24pt;
     text-align: justify;
     margin-top: 2em;
 }
 
-@media(max-width:1600px){
-	
-}
-@media(max-width:1440px){
-	
-}
-@media(max-width:1920px){
-	
-}
-@media(max-width:1280px){
-	
-}
-@media(max-width:1080px){
-
-}
-@media(max-width:1050px){
-	
-}
-@media(max-width:1024px){
-	
-}
-@media(max-width:991px){
-	
-}
-@media(max-width:900px){
-	
-}
-@media(max-width:800px){
-	
-}
-
-@media(max-width:768px){
-	
-}
-@media(max-width:767px){
-	
-}
-@media(max-width:736px){
-
-}
-@media(max-width:667px){
-	
-}
-@media(max-width:640px){
-	
-}
-@media(max-width:600px){
-	
-}
-@media(max-width:568px){
-	
-}
-@media(max-width:480px){
-	
-}
-@media(max-width:414px){
-	
-}
-@media(max-width:384px){
-	body{
-        background: rgb(255, 255, 255);
-        margin-right: 1rem;
-        margin-left: 1rem;
-        
-    }
-	
-}
-@media(max-width:375px){
-	body{
-        background: rgb(255, 255, 255);
-        margin-right: 1rem;
-        margin-left: 1rem;
-        
-    }
-}
-@media(max-width:320px){
-    body{
-        background: rgb(255, 255, 255);
-        margin-right: 1rem;
-        margin-left: 1rem;
-        
-    }
-}
-
 
 /*Estilos de la tabla en bloques.html*/
 
-.tbloque{
+.tbloque {
     width: 1000px;
 }
-.td1{
+
+.td1 {
     border: rgb(57, 134, 49) 8px;
     border-radius: 5px 5px 5px 5px;
     background-color: rgb(57, 134, 49);
     width: 600px;
     height: 50px;
 }
-.td1 p{
+
+.td1 p {
     text-align: center;
     color: white;
 }
 
-.td2, .td3, .td4, .td5, .td6{
+.td2,
+.td3,
+.td4,
+.td5,
+.td6 {
     border: white 8px;
     background-color: rgb(122, 122, 122);
     width: auto;
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.td2, .td3, .td4, .td5, .td6, td p{
+
+.td2,
+.td3,
+.td4,
+.td5,
+.td6,
+td p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-

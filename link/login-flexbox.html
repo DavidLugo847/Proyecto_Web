@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<div class="topbar"></div>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML,CSS3,JavaScript">
+    <link rel="stylesheet" href="../css/style-menu-flexbox.css">
+    <link rel="stylesheet" href="../fonts/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="../js/main.js"></script>
+    <title>Login con Flexbox</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-bar">
+            <a class="bt-menu" href="#"><span class="icon-list"></span>MENU</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><span class="icon-home"></span>INICIO</a></li>
+                <li><a href="#"><span class="icon-computer-laptop"></span>Productos</a></li>
+                <li class="submenu"><a href="#"><span class="icon-rocket"></span>Proyectos<span
+                            class="icon-cheveron-down"></span></a>
+                    <ul class="children">
+                        <li><a href="#">Subelemento1<span class="icon icon-cheveron-outline-right"></span></a></li>
+                        <li><a href="#">Subelemento2<span class="icon icon-cheveron-outline-right"></span></a></li>
+                        <li><a href="#">Subelemento3<span class="icon icon-cheveron-outline-right"></span></a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="icon-globe"></span>Servicios</a></li>
+                <li><a href="#"><span class="icon-mail2"></span>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div id="main-content">
+        <div class="content1">
+            <div class="Icon">
+                <span class="icon-user-solid-circle"></span>
+            </div>
+            <h1>Iniciar Sesión</h1>
+            <form action="../index.html">
+                <label class="lb" for="name">Nombre de Usuario:</label>
+                <input type="name" placeholder="Ej. DavidLugo847">
+                <label class="lb" for="username">Contraseña:</label>
+                <input type="password" placeholder="Contraseña">
+
+                <p><a class="recuperar" href="#">¿Olvidaste tu contraseña?</a></p>
+                <div id="submitbtn">
+                    <input type="submit" value="Iniciar Sesion">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

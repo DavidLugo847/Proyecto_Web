@@ -1,91 +1,122 @@
 <!DOCTYPE html>
 
 <html lang="es">
- <div class="topbar"></div>
+<div class="topbar"></div>
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ejemplo de HTML5">
     <meta name="keywords" content="HTML,CSS3,JavaScript">
     <title>MarketZone - Compra toda clase de elementos.</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-menu.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/script-login.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 </head>
-<body>
-    
+
+<body data-aos="fade-down">
+
     <header>
-      <div class="content-menu-hidden">
-         <nav>
-          <ul id="lista">
-              <li><a class="navs" title="Volver al Inicio" href="index.html">Inicio</a></li>
-              <li><a class="navs" title="Unboxing de Productos" href="enlaces/deportes.html">Carrito de compras</a></li>
-              <li><a class="navs" title="Formulario de Compra" href="link/formcompra.html">Busqueda de Productos</a></li>
-              <li><a class="navs" title="Formulario de Compra" href="link/bloques.html">Laboratorio</a></li>
-              <li><a class="navs" title="Formulario de Compra" href="link/nosostros.html">Acerca de Nosotros</a></li>
-          </ul>
-          </nav>
-          </div>
-
-        <div class="content-menu">
-       <nav>
-        <ul id="lista">
-            <li><a class="navs" title="Volver al Inicio" href="index.html">Inicio</a></li>
-            <li><a class="navs" title="Unboxing de Productos" href="enlaces/deportes.html">Carrito de compras</a></li>
-            <li><a class="navs" title="Formulario de Compra" href="link/formcompra.html">Busqueda de Productos</a></li>
-            <li><a class="navs" title="Formulario de Compra" href="link/bloques.html">Laboratorio</a></li>
-            <li><a class="navs" title="Formulario de Compra" href="link/nosostros.html">Acerca de Nosotros</a></li>
-        </ul>
-        </nav>
+        <div class="menu-bar">
+            <a class="bt-menu" href="#"><span class="icon-list"></span>MENU</a>
         </div>
-    </header>   
-   <h1 class="t1">Compra articulos en la oferta de <span class="sp1">hoy!!!</span></h1>
-           
-<div class="contenedores">
-            <a href="link-productos/tecnologia.html" target="_Blank">
-               <div class="cont1">
-               <p class="text-div">Tecnologia</p>
-               <img class="tecnologia-300px" src="images/tecnologia-300px.jpg">
-               <p class="text-div-down">Celulares-Tablets-Auriculares-Parlantes</p>
-            </div></a>           
-            <a href="link-productos/deportes.html" target="_Blank">
-               <div class="cont2">
-               <p class="text-div">Deportes</p>
-               <img class="deportes-300px" src="images/deportes-300px.jpg">
-               <p class="text-div-down">Bolas-Bicicletas-Proteccion-Pesas</p>
-            </div></a>           
-            <a href="link-productos/musica.html" target="_Blank">
-               <div class="cont3">
-               <p class="text-div">Musica</p>
-               <img class="musicales-300px" src="images/musicales-300px.jpg">
-               <p class="text-div-down">Instrumentos-Aplificadores-Pedales</p>
-            </div></a>           
-            <a href="link-productos/hogar.html" target="_Blank">
-               <div class="cont4">
-               <p class="text-div">Hogar</p>
-               <img class="hogar-300px" src="images/hogar-300px.jpg">
-               <p class="text-div-down">Electrodomesticos-Lozas-Cubiertos-Ollas</p>
-            </div></a>           
-            <a href="link-productos/autopartes.html" target="_Blank">
-               <div class="cont5">
-               <p class="text-div">Autopartes</p>
-               <img class="autopartes-300px" src="images/autopartes-300px.jpg">
-               <p class="text-div-down">Motores-Turbos-Bodykits-Rines</p>
-            </div></a>            
-            <a href="link-productos/varios.html" target="_Blank">
-               <div class="cont6">
+        <nav>
+            <ul>
+                <li><a title="Volver al Inicio" href="index.html">Inicio</a></li>
+                <li><a title="Unboxing de Productos" href="enlaces/deportes.html">Carrito de compras</a></li>
+                <li><a title="Formulario de Compra" href="link/formcompra.html">Busqueda de Productos</a></li>
+                <li><a title="Formulario de Compra" href="link/bloques.html">Laboratorio</a></li>
+                <li class="submenu"><a href="#"><span class="icon-rocket"></span>Proyectos<span
+                          class="icon-cheveron-down"></span></a>
+                    <ul class="children">
+                        <li><a class="navs" title="Ejemplo de Menu con Posicion Absoluta" href="link/menu-absolute.html">Menu Position Absolute</a></li>
+                        <li><a title="Ejemplo de Menu con Posicion Fixed" href="link/menu-fixed.html">Menu Position Fixed</a></li>
+                        <li><a title="Ejemplo de Menu con Background" href="link/nav-bg.html">Navbar con Background</a></li>
+                        <li><a title="Ejemplo de Menu Vertical" href="link/nav-vertical.html">Navbar Vertical</a></li>
+                        <li><a title="Ejemplo de Menu Horizontal" href="link/nav-horizontal.html">Navbar Horizontal</a></li>
+                        <li><a title="Ejemplo de Menu con subitems" href="link/menu-sub-items.html">Menu Sub Items</a></li>
+                        <li><a title="Media Querys" href="link/layout-media-query.html">Layout-Media-Query</a></li>
+                        <li><a title="Menu para Movil" href="link/menu-responsive.html">Menu Responsive</a></li>
+                        <li><a title="Menu Vertical adaptable" href="link/menu-vertical-responsive.html">Menu Vertical Responsive</a></li>
+                        <li><a title="Formulario usando gradients" href=" link/formulario-avanzado.html ">Formulario Avanzado</a></li>
+                        <li><a title="Gradientes de CSS" href="link/gradients.html ">Gradientes</a></li>
+                        <li><a title="Menu adaptable Horizontalt vertical con Media Querys" href="link/menu-responsive-2.html ">Menu Responsive 2</a></li>
+                        <li><a title="Flexbox todos los ejemplos de alienacion" href="flink/lexbox.html ">Flexbox</a></li>
+                        <li><a title="Login usando flexbox" href="link/login-flexbox.html ">Login-Flexbox</a></li>
+                    </ul>
+                </li>
+                <li><a title="Formulario de Compra" href="link/nosostros.html">Acerca de Nosotros</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Compra articulos en la oferta de <span class="sp1">hoy!!!</span></h1>
+
+    <div class="contenedores">
+        <a href="link-productos/tecnologia.html" target="_Blank">
+            <div class="cont1">
+                <p class="text-div">Tecnologia</p>
+                <img class="cat-300px" src="images/tecnologia-300px.jpg">
+                <p class="text-div-down">Celulares-Tablets-Auriculares-Parlantes</p>
+            </div>
+        </a>
+        <a href="link-productos/deportes.html" target="_Blank">
+            <div class="cont2">
+                <p class="text-div">Deportes</p>
+                <img class="cat-300px" src="images/deportes-300px.jpg">
+                <p class="text-div-down">Bolas-Bicicletas-Proteccion-Pesas</p>
+            </div>
+        </a>
+        <a href="link-productos/musica.html" target="_Blank">
+            <div class="cont3">
+                <p class="text-div">Musica</p>
+                <img class="cat-300px" src="images/musicales-300px.jpg">
+                <p class="text-div-down">Instrumentos-Aplificadores-Pedales</p>
+            </div>
+        </a>
+        <a href="link-productos/hogar.html" target="_Blank">
+            <div class="cont4">
+                <p class="text-div">Hogar</p>
+                <img class="cat-300px" src="images/hogar-300px.jpg">
+                <p class="text-div-down">Electrodomesticos-Lozas-Cubiertos-Ollas</p>
+            </div>
+        </a>
+        <a href="link-productos/autopartes.html" target="_Blank">
+            <div class="cont5">
+                <p class="text-div">Autopartes</p>
+                <img class="cat-300px" src="images/autopartes-300px.jpg">
+                <p class="text-div-down">Motores-Turbos-Bodykits-Rines</p>
+            </div>
+        </a>
+        <a href="link-productos/varios.html" target="_Blank">
+            <div class="cont6">
                 <p class="text-div">Varios</p>
-                <img class="miscelanea-300px" src="images/miscelanea-300px.jpg">
+                <img class="cat-300px" src="images/miscelanea-300px.jpg">
                 <p class="text-div-down">Papeleria-Utiles Escolares-Libros</p>
-             </div></a></div>
+            </div>
+        </a>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 
-        </body>
+<footer class="ft">
 
-        <footer class="ft">
-
-        <center><p class="ft1">Diseñado por Edinson David Barrera Lugo - Aprendiz SENA</p></center>
-        <center>&copy; Copyright 2021</center>
-        </footer>
+    <center>
+        <p class="ft1">Diseñado por Edinson David Barrera Lugo - Aprendiz SENA</p>
+    </center>
+    <center>&copy; Copyright 2021</center>
+</footer>
