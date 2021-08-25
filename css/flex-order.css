@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-flex-1 {
+  display: flex;
+  background-color: rgb(0, 110, 255);
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.item-flex {
+  background-color: rgb(87, 174, 255);
+  color: white;
+  font-size: 1.5em;
+  width: 200px;
+  height: 200px;
+}
+.item-1 {
+    order: 3;
+}
+.item-2 {
+    order: 4;
+}
+.item-3 {
+    order: 1;
+}
+.item-4 {
+    order: 0;
+}
+.item-5{
+    order: 5;
+}
+.item-6{
+    order:2;
+}

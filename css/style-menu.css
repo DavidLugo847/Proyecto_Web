@@ -1,149 +1,33 @@
-/* NavBar */
-
-.menu-bar {
-    display: none;
+#main-content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    background: rgb(184, 184, 184);
 }
 
-header {
-    width: 100%;
+.element {
+    background: rgb(255, 255, 255);
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
 }
 
-header div a {
-    font-family: 'Roboto', sans-serif;
+.element:hover {
+    background: darkgray;
 }
 
-header nav {
-    background: #000000a1;
-    width: 100%;
-    /* margin: 20px auto; */
+.cont-home {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 50px;
 }
 
-nav ul {
-    list-style: none;
-    text-align: right;
-}
-
-nav ul li {
-    display: inline-block;
-    position: relative;
-}
-
-nav ul li:hover {
-    background: #525252c0;
-}
-
-nav ul li a {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    display: block;
-    text-decoration: none;
+.cont {
     padding: 20px;
-}
-
-nav ul li .children {
-    display: none;
-    position: absolute;
-    background: #0000009a;
-    text-align: left;
-}
-
-nav ul li:hover .children {
-    display: block;
-    width: 120%;
-    text-align: left;
-}
-
-nav ul li .children li {
-    overflow: hidden;
-    display: block;
-    border-bottom: 1px solid rgba(255, 255, 255, 255, 5);
-}
-
-nav ul li .children li a {
-    font-family: 'Roboto';
-    display: block;
-}
-
-nav ul li span {
-    margin-right: 10px;
-}
-
-nav ul li .children li a span {
-    float: right;
-    position: relative;
-    top: 3px;
-    margin-right: 0;
-    margin-left: 0.5em;
-}
-
-nav ul li .icon-cheveron-down {
-    position: relative;
-    top: 3px;
-    margin-left: 10px;
-}
-
-@media screen and (max-width:800px) {
-    body {
-        padding-top: 80px;
-    }
-    .menu-bar {
-        display: block;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        background: #0000008c;
-    }
-    .menu-bar .bt-menu {
-        display: block;
-        padding: 20px;
-        color: #fff;
-        overflow: hidden;
-        font-size: 20px;
-        font-weight: bold;
-        text-decoration: none;
-        width: 50px;
-        height: 25px;
-    }
-    .icon-list {
-        position: absolute;
-        right: 20px;
-    }
-    .menu-bar span {
-        float: right;
-        font-size: 30px;
-    }
-    header nav {
-        width: 80%;
-        height: calc(100% - 40px);
-        position: fixed;
-        right: 100%;
-        margin: 0;
-        top: 65px;
-        overflow: auto;
-    }
-    header nav ul {
-        text-align: left;
-    }
-    header nav ul li {
-        display: block;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    }
-    header nav ul li a {
-        font-family: 'Roboto';
-        padding: 12px;
-        display: block;
-    }
-    header nav ul li .children {
-        position: relative;
-        width: 100%;
-    }
-    header nav ul li .children li a {
-        margin-left: 20px;
-    }
-    nav ul li .icon-cheveron-down {
-        float: right;
-    }
-    nav ul li:hover .children {
-        display: none;
-    }
+    width: 250px;
+    height: 200px;
 }

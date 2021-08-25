@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-flex-1 {
+    display: flex;
+    background-color: rgb(0, 110, 255);
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.item-flex {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(87, 174, 255);
+    color: white;
+    font-size: 1.5em;
+    height: 250px;
+}
+
+.item-1 {
+    flex-basis: 200px;
+}
+
+.item-2 {
+    flex-basis: 300px;
+}
+
+.item-3 {
+    flex-basis: 100px;
+}
+
+.item-4 {
+    flex-basis: 250px;
+}
+
+.item-5 {
+    flex-basis: 150px;
+}
+
+.item-6 {
+    flex-basis: 600px;
+}
