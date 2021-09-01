@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* background: url(https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed; */
     -webkit-background-size: cover;
@@ -14,12 +18,32 @@ body {
 }
 
 body::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 10px;
-    background-color: #797979;
-    border-radius: 20px;
-    border: 2px solid #f1f2f3;
-    border-radius: 10px;
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #828282;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+    background: #ffffff;
 }
 
 .splash {
@@ -172,9 +196,6 @@ blockquote {
 .divprincipal {
     background-color: gray;
 }
-
-
-/*Contenedores de Categorias*/
 
 .contenedores {
     display: flex;

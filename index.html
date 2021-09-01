@@ -18,34 +18,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/script-login.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main-anim.js"></script>
 
 </head>
 
 
 <header>
-    <div class="menu-bar">
-        <a class="bt-menu" href="#"><span class="icon-list"></span>MENU</a>
-    </div>
+
     <nav>
-        <div id="main-content">
-            <div class="cont-home">
-                <a class="element" href="#">Home</a>
+        <div class="bar">
+            <div class="menu-bar">
+                <a class="bt-menu" href="#"><span class="icon-menu1"></span></a>
             </div>
+        </div>
+        <div id="main-content">
             <div class="cont">
-                <a class="element" title="Volver al Inicio" href="index.html">Inicio</a></li>
-                <a class="element" title="Unboxing de Productos" href="enlaces/deportes.html">Carrito de compras</a>
-                <a class="element" title="Formulario de Compra" href="link/formcompra.html">Busqueda de Productos</a>
-                <a class="element" title="Formulario de Compra" href="link/bloques.html">Laboratorio</a></li>
-                <a class="element" title="Ejemplo de Menu con Background" href="link/nav-bg.html">Navbar con Background</a>
-                <a class="element" title="Menu Vertical adaptable" href="link/menu-vertical-responsive.html">Menu Vertical Responsive</a>
-                <a class="element" title="Formulario usando gradients" href=" link/formulario-avanzado.html ">Formulario Avanzado</a>
-                <a class="element" title="Gradientes de CSS" href="link/gradients.html ">Gradientes</a></li>
-                <a class="element" title="Menu adaptable Horizontalt vertical con Media Querys" href="link/menu-responsive-2.html ">Menu Responsive 2</a>
-                <a class="element" title="Flexbox todos los ejemplos de alienacion" href="flink/lexbox.html ">Flexbox</a>
-                <a class="element" title="Login usando flexbox" href="link/login-flexbox.html ">Login-Flexbox</a>
+                <div class="cont-home"><a class="element-home" title="Volver al Inicio" href="index.html"><span class="icon icon-home_filled"></span>Inicio</a>
+                </div>
+
+                <hr class="ln line-space">
+
+                <a class="element" title="Unboxing de Productos" href="enlaces/deportes.html"><span class="icon icon-add_shopping_cart"></span>Carrito</a>
+                <a class="element" title="Formulario de Compra" href="link/formcompra.html"><span class="icon icon-search"></span>Busqueda</a>
+                <a class="element" title="Formulario de Compra" href="link/bloques.html"><span class="icon icon-lab"></span>Laboratorio</a>
+                <a class="element" title="Ejemplo de Menu con Background" href="link/nav-bg.html"><span class="icon icon-picture-o"></span>Navbar con BG</a>
+                <a class="element" title="Menu Vertical adaptable" href="link/menu-vertical-responsive.html"><span class="icon icon-screen_lock_landscape"></span>Menu V Responsive</a>
+                <a class="element" title="Formulario usando gradients" href=" link/formulario-avanzado.html "><span class="icon icon-wpforms"></span>Form Avanzado</a>
+                <a class="element" title="Gradientes de CSS" href="link/gradients.html "><span class="icon icon-gradient"></span>Gradientes</a>
+                <a class="element" title="Menu adaptable Horizontal vertical con Media Querys" href="link/menu-responsive-2.html "><span class="icon icon-mobile-devices"></span>Menu Responsive 2</a>
+                <a class="element" title="Flexbox todos los ejemplos de alienacion" href="link/flexbox.html "><span class="icon icon-grid_view"></span>Flexbox</a>
+
+                <div class="submenu"><a class="next-element" title="Flexbox todos los ejemplos de alienacion" href="#"><span class="icon icon-rocket"></span>Proyectos<span
+                    class="icon-cheveron-down"></span></a>
+                    <div class="children">
+                        <a class="sub-element" href="#">Subelemento1<span class="icon-minus"></span></a>
+                        <a class="sub-element" href="#">Subelemento2<span class="icon-minus"></span></a>
+                        <a class="sub-element" href="#">Subelemento3<span class="icon-minus"></span></a>
+                    </div>
+                </div>
+                <a class="element" title="Login usando flexbox" href="link/login-flexbox.html "><span class="icon icon-login"></span>Login-Flexbox</a>
             </div>
         </div>
     </nav>
@@ -57,35 +68,35 @@
 
 
 <!-- <header>
-        <div class="menu-bar">
-            <a class="bt-menu" href="#"><span class="icon-list"></span>MENU</a>
-        </div>
-        <nav>
-            <ul>
-                <li><a title="Volver al Inicio" href="index.html">Inicio</a></li>
-                <li><a title="Unboxing de Productos" href="enlaces/deportes.html">Carrito de compras</a></li>
-                <li><a title="Formulario de Compra" href="link/formcompra.html">Busqueda de Productos</a></li>
-                <li><a title="Formulario de Compra" href="link/bloques.html">Laboratorio</a></li>
-                <li class="submenu"><a href="#"><span class="icon-rocket"></span>Proyectos<span
+    <div class="menu-bar">
+        <a class="bt-menu" href="#"><span class="icon-list"></span>MENU</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a title="Volver al Inicio" href="index.html">Inicio</a></li>
+            <li><a title="Unboxing de Productos" href="enlaces/deportes.html">Carrito de compras</a></li>
+            <li><a title="Formulario de Compra" href="link/formcompra.html">Busqueda de Productos</a></li>
+            <li><a title="Formulario de Compra" href="link/bloques.html">Laboratorio</a></li>
+            <li class="submenu"><a href="#"><span class="icon-rocket"></span>Proyectos<span
                           class="icon-cheveron-down"></span></a>
-                    <ul class="children">
-                        <li><a title="Ejemplo de Menu con Background" href="link/nav-bg.html">Navbar con Background</a></li>
-                        <li><a title="Menu Vertical adaptable" href="link/menu-vertical-responsive.html">Menu Vertical Responsive</a></li>
-                        <li><a title="Formulario usando gradients" href=" link/formulario-avanzado.html ">Formulario Avanzado</a></li>
-                        <li><a title="Gradientes de CSS" href="link/gradients.html ">Gradientes</a></li>
-                        <li><a title="Menu adaptable Horizontalt vertical con Media Querys" href="link/menu-responsive-2.html ">Menu Responsive 2</a></li>
-                        <li><a title="Flexbox todos los ejemplos de alienacion" href="flink/lexbox.html ">Flexbox</a></li>
-                        <li><a title="Login usando flexbox" href="link/login-flexbox.html ">Login-Flexbox</a></li>
-                    </ul>
-                </li>
-                <li><a title="Formulario de Compra" href="link/nosostros.html">Acerca de Nosotros</a></li>
+                <ul class="children">
+                    <li><a title="Ejemplo de Menu con Background" href="link/nav-bg.html">Navbar con Background</a></li>
+                    <li><a title="Menu Vertical adaptable" href="link/menu-vertical-responsive.html">Menu Vertical Responsive</a></li>
+                    <li><a title="Formulario usando gradients" href=" link/formulario-avanzado.html ">Formulario Avanzado</a></li>
+                    <li><a title="Gradientes de CSS" href="link/gradients.html ">Gradientes</a></li>
+                    <li><a title="Menu adaptable Horizontalt vertical con Media Querys" href="link/menu-responsive-2.html ">Menu Responsive 2</a></li>
+                    <li><a title="Flexbox todos los ejemplos de alienacion" href="flink/lexbox.html ">Flexbox</a></li>
+                    <li><a title="Login usando flexbox" href="link/login-flexbox.html ">Login-Flexbox</a></li>
+                </ul>
+            </li>
+            <li><a title="Formulario de Compra" href="link/nosostros.html">Acerca de Nosotros</a></li>
 
-            </ul>
-        </nav>
-    </header> -->
+        </ul>
+    </nav>
+</header> -->
 
 
-<!-- <h1>Compra articulos en la oferta de <span class="sp1">hoy!!!</span></h1>
+<h1>Compra articulos en la oferta de <span class="sp1">hoy!!!</span></h1>
 
 <div class="contenedores">
     <a href="link-productos/tecnologia.html" target="_Blank">
@@ -143,4 +154,4 @@
         <p class="ft1">Diseñado por Edinson David Barrera Lugo - Aprendiz SENA</p>
     </center>
     <center>&copy; Copyright 2021</center>
-</footer> -->
+</footer>

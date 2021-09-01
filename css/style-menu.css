@@ -1,33 +1,217 @@
-#main-content {
+#main-content:not(.menu-bar) {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    align-items: center;
+    position: fixed;
+    top: 4.5em;
+    width: 240px;
     height: 100%;
-    background: rgb(184, 184, 184);
+    background: white;
+    border-right: 0.5px rgb(169, 169, 169) solid;
+    box-shadow: 2px 2px 5px rgba(193, 193, 193, 0.27);
+    overflow: auto;
+    overflow-x: hidden;
 }
 
-.element {
-    background: rgb(255, 255, 255);
-    display: flex;
-    margin: 20px;
-    padding: 5px;
-    justify-content: flex-start;
-    flex-flow: column nowrap;
+#main-content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
 }
 
-.element:hover {
-    background: darkgray;
+#main-content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+#main-content::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#main-content::-webkit-scrollbar-thumb:active {
+    background-color: #828282;
+}
+
+#main-content::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+#main-content::-webkit-scrollbar-track:hover,
+#main-content::-webkit-scrollbar-track:active {
+    background: #ffffff;
 }
 
 .cont-home {
     display: flex;
+    top: 5em;
+    width: 90%;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 50px auto;
+    border-radius: 5px;
+    background: #e6ebef;
+    align-self: center;
+}
+
+.ln {
+    margin-left: 12px;
+    width: calc(100% - 24px);
+    transition: width .15s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.line-space {
+    width: 90%;
+    margin: 10px;
+    height: 1px!important;
+    color: #d9e2e8;
+    background-color: #d9e2e8;
+    border: 0;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background: white;
+    border-right: 0.5px rgb(169, 169, 169) solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.27);
+    overflow: auto;
+    overflow-x: hidden;
+    right: 95%;
+    margin: 0;
+}
+
+.menu-bar {
+    color: #6c7d8a84;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    margin: 15px;
+    border-radius: 5px;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+}
+
+.menu-bar:hover {
+    background: #e6ebef;
+}
+
+.icon-menu1 {
+    font-size: 20px;
+}
+
+.element,
+.element-home {
+    display: flex;
+    color: black;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    /* margin: 2px 2px 2px 2px; */
+    padding: 10px 10px 10px 20px;
+    flex-direction: row;
+    align-self: center;
     justify-content: flex-start;
-    width: 250px;
-    height: 50px;
+}
+
+.element-home {
+    width: 80%;
+}
+
+.element:hover,
+.element-home:hover,
+.next-element:hover {
+    background: #e6ebef;
+}
+
+.icon {
+    color: #6c7d8a84;
+    font-size: 1.4em;
+    margin-right: 1em;
 }
 
 .cont {
-    padding: 20px;
-    width: 250px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.icon-home_filled {
+    color: #212a30;
+}
+
+.next-element {
+    display: flex;
+    align-self: center;
+    color: black;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 1px 0px 2px 8px;
+    padding: 10px 10px 10px 20px;
+    align-self: center;
+}
+
+.submenu {
+    width: 100%;
+    background: white;
+    align-content: center;
+    overflow: none;
+}
+
+.submenu .children {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    text-align: left;
+}
+
+.submenu:hover .children {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.children .sub-element {
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 255, 5);
+}
+
+.children .sub-element {
+    background: red;
+    font-family: 'Roboto';
+    display: block;
+    width: 90%;
+    height: 30px;
+    padding: 3px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.children .sub-element span {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#main-content {
+    width: 80%;
+    height: calc(100% - 90px);
+    position: fixed;
+    right: 100%;
+    margin: 0;
+    overflow: scroll;
 }
