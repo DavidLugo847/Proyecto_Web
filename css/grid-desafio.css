@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-content {
+    display: grid;
+    padding: 20px;
+    font-size: 1.3em;
+    line-height: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    border: 3px rgba(255, 255, 255, 0.7) solid;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header,
+.sidebar,
+.main,
+.navbar,
+.footer {
+    width: 100px;
+}
+
+.header {
+    background: rgb(174, 111, 233);
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.navbar {
+    background: rgb(51, 173, 255);
+}
+
+.sidebar {
+    background: rgb(115, 212, 131);
+}
+
+.main {
+    background: rgb(255, 243, 132);
+}
+
+.footer {
+    background: rgb(241, 99, 99);
+}

@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -91,7 +95,7 @@ h1 {
     border: 2px rgb(175, 175, 175) solid;
     border-bottom: 2px rgb(158, 158, 158) solid;
     display: block;
-    width: 50px;
+    width: 5%;
     height: 20px;
     padding: 20px;
 }
@@ -107,3 +111,28 @@ h1 {
     border: 2px rgb(70, 70, 70) solid;
     border-bottom: 2px rgb(55, 55, 55) solid;
 }
+@media only screen and (max-width:649px){
+    .contenedor{
+        margin: 0 auto;
+        padding: 5px;
+        width: 90%;
+        font-size: 18px;
+    }
+    .contenedor>div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        padding: 2px;
+        margin: 5px;
+    }
+    .contenedor .dia{
+        font-size: 12px;
+        width: 50px;
+        padding: 0;
+        margin: 0;
+    }
+    .contenedor .box1{
+        width: 90%;
+    }
+    }
