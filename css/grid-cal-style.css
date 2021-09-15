@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    width: 60%;
+    max-width: 1500px;
+    background: rgb(29, 28, 28);
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.dia {
+    display: block;
+    width: 50px;
+    height: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor>div:hover {
+    border: 2px rgb(160, 160, 160) solid;
+    color: gray;
+}
+
+.contenedor>div:active {
+    border: 2px rgb(255, 255, 255) solid;
+    background: rgb(87, 87, 87);
+    color: white;
+}
+
+.contenedor>div {
+    display: block;
+    width: 40px;
+    align-self: center;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px;
+    border: 2px rgb(29, 28, 28) solid;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.contenedor .box1 {
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.contenedor .box2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
