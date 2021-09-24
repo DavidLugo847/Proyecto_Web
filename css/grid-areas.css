@@ -59,6 +59,6 @@
 
 @media only screen and (max-width: 680px) {
     .page-content {
-        grid-template: "header" 100px "navbar" 100px "sidebar" 300px "main" 500px "footer" 150px;
+        grid-template: "header header header" 100px "sidebar navbar navbar" 100px "sidebar navbar navbar" 300px "main main main" 500px "footer footer footer" 150px;
     }
 }

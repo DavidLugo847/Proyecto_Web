@@ -14,6 +14,7 @@ body {
     overflow-y: hidden;
 }
 
+
 /* NavBar */
 
 .menu-bar {
@@ -164,6 +165,7 @@ nav ul li .icon-cheveron-down {
     }
 }
 
+
 /* Login */
 
 #main-content {
@@ -205,11 +207,12 @@ h1 {
 
 .content1 form .lb {
     display: block;
-    margin-top: 1em;
+    margin-top: 5em;
     margin-left: 5%;
 }
 
-input[type="name"], [type="password"] {
+input[type="name"],
+[type="password"] {
     outline: none;
     background: rgba(255, 255, 255, 0.8);
     padding: 0 10px 0 10px;
@@ -261,7 +264,8 @@ input[type="submit"]:hover {
         margin: 0;
         border-radius: 0;
     }
-    input[type="name"], [type="password"] {
+    input[type="name"],
+    [type="password"] {
         border-radius: 0;
         height: 50px;
         width: 85%;

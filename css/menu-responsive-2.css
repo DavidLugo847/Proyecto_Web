@@ -18,9 +18,11 @@ body {
 header {
     width: 100%;
 }
-header div a{
+
+header div a {
     font-family: 'Roboto', sans-serif;
 }
+
 header nav {
     background: #023859;
     width: 100%;
@@ -100,16 +102,22 @@ nav ul li .icon-cheveron-down {
         width: 100%;
         position: fixed;
         top: 0;
-        background: #e6344a;
+        background: #000000a8;
     }
     .menu-bar .bt-menu {
         display: block;
         padding: 20px;
         color: #fff;
         overflow: hidden;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         text-decoration: none;
+        width: 50px;
+        height: 25px;
+    }
+    .icon-list {
+        position: absolute;
+        right: 20px;
     }
     .menu-bar span {
         float: right;
