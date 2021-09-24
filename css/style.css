@@ -19,6 +19,15 @@ body {
     margin-right: 10em;
 }
 
+.navs {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navs:hover {
+    color: rgb(136, 136, 136);
+}
+
 h1 {
     text-align: center;
     color: white;
