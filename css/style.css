@@ -9,317 +9,60 @@ html {
 }
 
 body {
-    /* background: url(https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed; */
+    background: url(../images/paisaje.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-color: white;
-}
-
-body::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 4px;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-    background: #b3b3b3;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-body::-webkit-scrollbar-thumb:active {
-    background-color: #828282;
-}
-
-body::-webkit-scrollbar-track {
-    background: #ffffff;
-    border-radius: 4px;
-}
-
-body::-webkit-scrollbar-track:hover,
-body::-webkit-scrollbar-track:active {
-    background: #ffffff;
-}
-
-.splash {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.578);
-}
-
-p {
-    font-family: arial;
-    font-size: 100%;
-    color: rgb(0, 0, 0);
-}
-
-h2 {
-    font-family: arial;
-    font-size: 100%;
-}
-
-table {
-    width: 100%
-}
-
-td {
-    background-color: rgba(255, 255, 255, 0.585);
-}
-
-article {
-    float: left;
-    min-height: 500;
-    text-align: justify;
-}
-
-.lateral {
-    background: rgb(255, 255, 255);
-    margin-top: 13rem;
-    margin-right: 2rem;
-    float: right;
-    width: 280px;
-}
-
-.imgcat {
-    width: 300px;
-}
-
-#main {
-    max-width: 960px;
-    min-width: 320px;
-    margin: 0 auto;
-}
-
-.botonpie:hover {
-    transition: width 0.5s, height 0.5s, transform 0.5s;
-    -webkit-transform: width 0.5s, height 0.5s, transform 0.5s;
-    -o-transform: width 0.5s, height 0.5s, transform 0.5s;
-    transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-}
-
-.p1 {
-    size: 24px;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 h1 {
     text-align: center;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Ubuntu', sans-serif;
-    font-style: oblique;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 5em;
+    text-shadow: -4px 3px 2px #00000085;
 }
 
-.sp1 {
-    color: red;
+.conts {
+    width: 300px;
+    margin: 1em;
+    background: rgba(0, 0, 0, 0.666);
+    color: white;
+    border-radius: 5px;
 }
 
-.titulos {
-    font-family: 'Ubuntu';
-    font-style: italic;
-    color: rgb(80, 80, 80);
-    text-align: center;
-    font-weight: 400;
-}
-
-.ft {
-    margin-top: 10rem;
-    background-color: rgb(71, 71, 71);
-}
-
-.ft1 {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.letterspace {
-    letter-spacing: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.linespaces {
-    font-size: 2.5em;
-    line-height: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-}
-
-p.alineacion-izquierda {
-    text-align: left;
-    font-size: 2.5em;
-}
-
-p.alineacion-derecha {
-    text-align: right;
-    font-size: 2.5em;
-}
-
-p.alineacion-central {
-    text-align: center;
-    font-size: 2.5em;
-}
-
-p.alineacion-justificada {
-    text-align: justify;
-    font-size: 2.5em;
-}
-
-p.indentado {
-    text-align: justify;
-    font-size: 2.5em;
-    text-indent: 10em;
-}
-
-.letra {
-    font-size: 5em;
-}
-
-blockquote {
-    text-align: right;
-    font-style: italic;
-    color: rgb(100, 233, 255);
-}
-
-.margenes {
-    background-color: lightgray;
-    width: 400px;
-    height: 400px;
-    margin: 50px 50px 50px 50px;
-    display: inline-block;
-}
-
-.divprincipal {
-    background-color: gray;
-}
-
-.contenedores {
+.cont-m {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #fafafa8e;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
+    align-self: center;
+    justify-content: center;
 }
 
-.cont1,
-.cont2,
-.cont3,
-.cont4,
-.cont5,
-.cont6 {
+.cabecera img {
+    border-radius: 5px;
     width: 300px;
-    padding-top: 10px;
-    height: 300px;
-    margin: 50px 50px 50px 50px;
-    border-radius: 10pt 10pt 0 0;
+    height: 200px;
 }
 
-.cont1 {
-    background-color: rgb(90, 140, 235);
+.titulo p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
 }
 
-.cont2 {
-    background-color: rgb(88, 202, 103);
+.titulo p span {
+    z-index: -5;
+    position: absolute;
+    padding: 2em 0 0 3em;
+    border-bottom: 3px goldenrod solid;
 }
 
-.cont3 {
-    background-color: rgb(221, 98, 98);
-}
-
-.cont4 {
-    background-color: rgb(199, 81, 173);
-}
-
-.cont5 {
-    background-color: rgb(196, 182, 60);
-}
-
-.cont6 {
-    background-color: rgb(95, 92, 85);
-}
-
-.text-div {
-    padding-bottom: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    color: white;
-}
-
-.text-div:hover {
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    color: white;
-}
-
-.text-div-down {
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-style: oblique;
-}
-
-.mipadding {
-    border: solid 3px black;
-    padding: 10px;
-    background-color: pink;
-    text-align: justify;
-    width: 370px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-}
-
-.mipadding2 {
-    border: dotted 3px black;
-    padding: 10px;
-    background-color: blue;
-    text-align: justify;
-    width: 370px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-}
-
-.mipadding3 {
-    border: double 3px black;
-    padding: 10px;
-    background-color: aqua;
-    text-align: justify;
-    width: 370px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-}
-
-@media only screen and (max-width:600px) {
-    .cat-300px,
-    .text-div-down {
-        display: none;
-    }
-    .contenedores {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background-color: #fafafa8e;
-        border: none;
-        border-radius: 10px;
-        text-align: center;
-    }
-    .cont1,
-    .cont2,
-    .cont3,
-    .cont4,
-    .cont5,
-    .cont6 {
-        padding-left: 0;
-        padding-right: 0;
-        width: 100px;
-        padding-top: 10px;
-        height: 30px;
-        border-radius: 10pt;
-    }
+.char {
+    width: 100%;
 }
 
 

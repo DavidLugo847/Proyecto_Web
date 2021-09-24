@@ -17,7 +17,10 @@ function main() {
 
             contador = 1;
 
-            $('#main-content ,.bar').animate({
+            $('#main-content').animate({
+                left: '-100%'
+            });
+            $('.bar').animate({
                 left: '-12.5%'
             });
         }

@@ -6,11 +6,37 @@
     top: 4.5em;
     width: 240px;
     height: 100%;
-    background: white;
-    border-right: 0.5px rgb(169, 169, 169) solid;
-    box-shadow: 2px 2px 5px rgba(193, 193, 193, 0.27);
     overflow: auto;
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #00000095;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #000000;
+}
+
+body::-webkit-scrollbar-track {
+    background: #00000093;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+    background: #ffffff00;
 }
 
 #main-content::-webkit-scrollbar {
@@ -50,7 +76,7 @@
     margin: 5px 0px;
     padding: 50px auto;
     border-radius: 5px;
-    background: #e6ebef;
+    background: #e6ebef88;
     align-self: center;
 }
 
@@ -65,7 +91,7 @@
     margin: 10px;
     height: 1px!important;
     color: #d9e2e8;
-    background-color: #d9e2e8;
+    background-color: #d9e2e87e;
     border: 0;
 }
 
@@ -76,9 +102,7 @@
     position: fixed;
     width: 240px;
     height: 100%;
-    background: white;
-    border-right: 0.5px rgb(169, 169, 169) solid;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.27);
+    background: rgba(0, 0, 0, 0.59);
     overflow: auto;
     overflow-x: hidden;
     right: 95%;
@@ -101,17 +125,18 @@
 }
 
 .menu-bar:hover {
-    background: #e6ebef;
+    background: #e6ebef88;
 }
 
 .icon-menu1 {
     font-size: 20px;
+    color: rgb(123, 123, 123);
 }
 
 .element,
 .element-home {
     display: flex;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 80%;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -130,11 +155,11 @@
 .element:hover,
 .element-home:hover,
 .next-element:hover {
-    background: #e6ebef;
+    background: #e6ebef7e;
 }
 
 .icon {
-    color: #6c7d8a84;
+    color: #ffffffe3;
     font-size: 1.4em;
     margin-right: 1em;
 }
@@ -146,13 +171,13 @@
 }
 
 .icon-home_filled {
-    color: #212a30;
+    color: #ffffff;
 }
 
 .next-element {
     display: flex;
     align-self: center;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 80%;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
