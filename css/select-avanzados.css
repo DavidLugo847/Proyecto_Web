@@ -1,0 +1,32 @@
+        .general-box {
+            border: 1px solid rgba(0, 0, 0, 0.473);
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+        }
+        
+        div {
+            float: left;
+        }
+        
+        h2 {
+            clear: both;
+        }
+        
+        .box-main-1>div {
+            background: rgb(58, 206, 255);
+        }
+        /* Selector + */
+        
+        .box-gen-1+.box-gen-2 {
+            background: lightblue;
+        }
+        /* Selector ~ */
+        
+        .box-gen-1_h~.box-gen-2_h {
+            background-color: lightskyblue;
+        }
+        
+        .box-main-5>[class^="box-"] {
+            background: rgb(70, 255, 153);
+        }

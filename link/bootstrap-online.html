@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap-online.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <h1>Mi primer contenedor con bootstrap</h1>
+
+    <h2>Distribuyendo columnas</h2>
+    <div class="row">
+        <div class="col">Columna 1</div>
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 3</div>
+    </div>
+
+
+
+    <h2>Distribuyendo columnas con espacios diferentes</h2>
+    <div class="row">
+        <!-- Bootstrap trae 12 columnas por defecto -->
+        <div class="col">Columna 1</div>
+        <div class="col-8">Columna 2</div>
+        <div class="col">Columna 3</div>
+    </div>
+
+
+    <h2>Columnas con comportamiento responsive</h2>
+    <div class="row">
+        <!-- Bootstrap trae 12 columnas por defecto -->
+        <div class="col-md">Columna Responsive (md)</div>
+        <div class="col">Columna 2</div>
+
+    </div>
+
+
+
+    <div class="cont">
+        <h2>Contenedores</h2>
+        <div class="row">
+            <div class="col-2">
+                <div class="container"></div>
+            </div>
+            <div class="col-8">
+                <div class="container"></div>
+            </div>
+            <div class="col-2">
+                <div class="container"></div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <h2>Contenedor Responsive</h2>
+    <div class="container-lg">
+        Contenedor 4
+    </div><br><br>
+
+
+
+
+    <h2>Contenedores divididos</h2>
+
+    <div class="row">
+        <div class="container-fluid">Contenedor 1</div>
+    </div>
+    <div class="row">
+        <div class="col">Contenedor 1</div>
+        <div class="col">Contenedor 2</div>
+    </div>
+    <div class="row">
+        <div class="col">Contenedor 1</div>
+        <div class="col">Contenedor 2</div>
+        <div class="col">Contenedor 3</div>
+    </div><br><br><br>
+
+
+
+
+
+
+
+    <h1>Formularios</h1>
+
+    <div class="formularios col-3">
+        <form>
+            <fieldset>
+                <legend>Porfavor Ingrese la informacion</legend>
+                <div class="mb-3">
+                    <label for="disabledTextInput" class="form-label">Disabled input</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese su nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Selecciona un Municipio</label>
+                    <select id="disabledSelect" class="form-select">
+                  <option>Pitalito</option>
+                  <option>Timaná</option>
+                  <option>San Agustín</option>
+                  <option>Isnos</option>
+                  <option>Garzón</option>
+                </select>
+                </div>
+                <div class="mb-3">
+                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                    <label class="form-check-label" for="disabledFieldsetCheck">
+                    Recordarme?
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br>
+
+
+
+
+    <div class="boton switch col-3 style-switch">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+            <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+        </div>
+    </div>
+
+
+
+
+    <div class="label-flotantes col-3">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-btn"> <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

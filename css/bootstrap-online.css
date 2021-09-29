@@ -1,0 +1,81 @@
+.row>[class^="col-"] {
+    background: rgb(32, 192, 255);
+    color: white;
+}
+
+div.row,
+div.contenedores {
+    border: 1px solid rgba(0, 0, 0, 0.562)
+}
+
+.row div>[class^="container"] {
+    background: mediumorchid;
+    height: 50px;
+}
+
+.formularios {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.form-label {
+    margin-left: 8px;
+}
+
+input[type="text"] {
+    margin: 5px 15px 15px 15px;
+    width: 85%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.form-select {
+    margin: 5px 15px 15px 15px;
+    width: 85%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.form-check-input {
+    margin-left: 15px;
+}
+
+.style-switch {
+    margin: 0 auto;
+    border: none;
+}
+
+.style-switch div {
+    border: none;
+}
+
+.boton {
+    border: none;
+}
+
+.style-switch .form-check-input {
+    font-size: 2em;
+}
+
+.style-switch .form-switch {
+    margin-bottom: 30px;
+}
+
+.label-flotantes {
+    margin: 0 auto;
+}
+
+.form-floating {
+    border: none;
+}
+
+.input[type="text"] {
+    margin: 5px 15px 15px 15px;
+    width: 85%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.form-btn {
+    margin-top: 15px;
+}
