@@ -1,0 +1,45 @@
+.cont {
+    box-shadow: -1px 1px 3px 1px darkgray;
+    justify-content: center;
+    margin-left: 18.5em !important;
+    width: 70% !important;
+    margin-top: 1em !important;
+    padding: 20px;
+}
+
+.main p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.rightlabel,
+.totaliva {
+    text-align: end;
+}
+
+.totaliva p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#vtotal_iva {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.add-cart,
+.del-prod {
+    float: right;
+}
+
+.add-cart p,
+.del-prod p {
+    padding: 0;
+    margin: 0;
+}
+
+.del-prod {
+    border: rgb(109, 23, 23) !important;
+    background: rgb(172, 36, 36) !important;
+}
