@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<div class="topbar"></div>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML,CSS3,JavaScript">
+    <title>Bootstrap - Registro de Usuario</title>
+    <link rel="stylesheet" href="../css/facturacion.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fonts/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="registrar-usuario hover-overlay">
+                <a href="../index.html"><span>HOME</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="#"><span>Registrar Usuario</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="registro-productos-bootstrap.html"><span>Registrar Producto</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="facturacion.html"><span>Facturación</span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container cont">
+        <form action="productos.html">
+            <div class="row">
+                <h1>Registrar Usuario</h1>
+                <div class="mb-3 col-6">
+                    <label for="nombre_usuario">Ingrese su Nombre(s)</label>
+                    <input type="text" class="form-control" id="nombre_usuario" placeholder="Primer Nombre">
+
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="apellidos">Ingrese su Apellido(s)</label>
+                    <input type="text" class="form-control" id="apellidos" placeholder="Primer Apellido">
+                </div>
+                <div class="form-floating mb-3 col-6">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Tipo de Documento</option>
+                            <option value="1">Cedula de Ciudadania</option>
+                            <option value="2">Cedula de extangeria</option>
+                            <option value="3">Registro Civil</option>
+                        </select>
+                    <label for="floatingSelect">Selecciona el tipo de Documento</label>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="floatingInput">Ingrese el Numero de documento</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Numero de documento">
+                </div>
+                <div class="mb-3 col-6">
+                    <label for=" floatingInput">Telefono/Celular</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Numero de Celular">
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="floatingInput">Correo electronico</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="example@mail.com">
+
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" onclick="registrar();" type="submit">Registrar</button>
+            </div>

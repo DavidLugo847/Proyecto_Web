@@ -6,6 +6,7 @@
 
 h1 {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em !important;
 }
 
 nav {
@@ -25,6 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -36,16 +38,4 @@ nav ul li a {
     width: 70% !important;
     margin-top: 1em !important;
     padding: 20px;
-}
-
-label {
-    margin-left: 10px;
-}
-
-h5 {
-    margin-top: 20px !important;
-}
-
-.form-check-input {
-    margin-bottom: 20px;
 }

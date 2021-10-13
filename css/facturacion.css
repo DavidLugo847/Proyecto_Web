@@ -6,6 +6,7 @@
 
 h1 {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em !important;
 }
 
 nav {
@@ -25,6 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -38,14 +40,39 @@ nav ul li a {
     padding: 20px;
 }
 
-label {
-    margin-left: 10px;
+.col-12 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
 }
 
-h5 {
-    margin-top: 20px !important;
+.rightlabel,
+.totaliva {
+    text-align: end;
 }
 
-.form-check-input {
-    margin-bottom: 20px;
+.totaliva p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#vtotal_iva {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.add-cart,
+.del-prod {
+    float: right;
+}
+
+.add-cart p,
+.del-prod p {
+    padding: 0;
+    margin: 0;
+}
+
+.del-prod {
+    border: rgb(109, 23, 23) !important;
+    background: rgb(172, 36, 36) !important;
 }

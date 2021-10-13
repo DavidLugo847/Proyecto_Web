@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<div class="topbar"></div>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML,CSS3,JavaScript">
+    <title>Bootstrap - Facturación</title>
+    <link rel="stylesheet" href="../css/facturacion.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fonts/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="registrar-usuario hover-overlay">
+                <a href="../index.html"><span>HOME</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="registrar_usuario.html"><span>Registrar Usuario</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="registro-productos-bootstrap.html"><span>Registrar Producto</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="#"><span>Facturación</span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container cont">
+        <form action="productos.html">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Facturación</h1>
+                    <p>Identificacion: C.C 1006947348</p>
+                    <p>Cliente: Edinson David Barrera Lugo</p>
+                    <p>Direccion: Calle 3D Sur #10 - 11 Este</p>
+                </div>
+                <div class="mb-3 col-4">
+                    <label for="nombre" class="form-label">Código</label>
+                    <input type="text" class="form-control" id="nombre" value="" placeholder="123456789">
+                </div>
+                <div class="mb-3 col-2">
+                    <label for="stock" class="form-label">Stock</label>
+                    <input type="number" class="form-control" id="stock" value="" placeholder="20">
+                </div>
+                <div class="mb-3 col-6">
+                    <label for="fecha" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="fecha">
+                </div>
+                <div class="mb-3 col-10">
+                    <label for="descripcion" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="descripcion" value="" placeholder="Cemento ARGOS x 50 Kilogramos"></textarea>
+                </div>
+                <div class="mb-3 col-2">
+                    <label for="cantidad" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control form-control-sm" id="cantidad" value="" placeholder="">
+                </div>
+                <div class="mb-3 col-8 rightlabel">
+                    <p>Precio por Unidad con IVA</p>
+                </div>
+                <div class="mb-3 col-4">
+                    <input type="number" class="form-control" id="precio_iva" value="" placeholder="$25.700">
+                </div>
+                <div class="mb-3 col-8 rightlabel">
+                    <p>Precio Total con IVA</p>
+                </div>
+                <div class="mb-3 col-4">
+                    <input type="number" class="form-control" id="ptotal_iva" value="" placeholder="$25.700">
+                </div>
+                <div class="mb-3 col-8 rightlabel totaliva">
+                    <p>Valor Total con IVA</p>
+                </div>
+                <div class="mb-3 col-4">
+                    <input type="number" class="form-control" id="vtotal_iva" value="" placeholder="$25.700">
+                </div>
+                <div class="mb-3 col-3">
+                </div>
+                <div class="mb-3 col-3">
+                </div>
+                <div class="mb-3 col-3 ">
+                    <button class="btn btn-primary add-cart" type="submit"><p><span class="icon-add-solid"></span></p><p>Agregar al Carrito</p></button>
+                </div>
+                <div class="mb-3 col-3 ">
+                    <button class="btn btn-primary del-prod" type="submit"><p><span class="icon-close"></span></p><p>Cancelar el Producto</p></button>
+                </div>
