@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: rgb(5, 149, 216);
+    z-index: 5;
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 18.5em !important;
+    width: 70% !important;
+    margin-top: 3em !important;
+    padding: 20px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+h5 {
+    margin-top: 20px !important;
+}
+
+.form-check-input {
+    margin-bottom: 20px;
+}

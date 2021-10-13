@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<div class="topbar"></div>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML,CSS3,JavaScript">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../css/registro-producto-bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../fonts/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="registrar-usuario hover-overlay">
+                <a href="../index.html"><span>HOME</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="#"><span>Registrar Producto</span></a>
+            </li>
+            <li class="registrar-usuario hover-overlay">
+                <a href="#"><span>Registrar Usuario</span></a>
+            </li>
+
+        </ul>
+    </nav>
+    <h1>Tienda Tuner</h1>
+    <div class="container cont">
+        <form action="productos.html">
+            <div class="row">
+                <div class="col-12">
+                    <h5>Registro de Productos</h5>
+                </div>
+                <div class="form-floating mb-3 col-8">
+                    <input type="text" class="form-control" id="nombre" placeholder=" Nombre de Producto" required>
+                    <label for="nombre">* Nombre</label>
+                </div>
+                <div class="form-floating mb-3 col-4">
+                    <select class="form-select" id="select-tipo" value="" aria-label="Floating label select example" required>
+                <option selected>Tipo de Producto</option>
+                <option value="3">Llantas</option>
+                <option value="3">Aros</option>
+                <option value="3">Piezas de Motor</option>
+                <option value="3">Sobrealimentadores</option>
+                <option value="3">Sistemas de escapes</option>
+                <option value="3">Wraps y Pinturas</option>
+                <option value="3">Bodykits y Alerones</option>
+            </select>
+                    <label for="select-tipo">Selecciona el tipo producto</label>
+                </div>
+                <div class="form-floating mb-3 col-4">
+                    <input type="text" class="form-control" id="marca" value="" placeholder="Marca de Producto" required>
+                    <label for="marca">* Marca del Producto</label>
+                </div>
+                <div class="form-floating col-8">
+                    <textarea class="form-control" placeholder="Leave a comment here" value="" id="descripcion"></textarea>
+                    <label for="descripcion">Descripcion del Producto</label>
+                </div>
+                <div class="col-12">
+                    <h5>* Garantia:</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" value="Si" id="si-garantia">
+                        <label class=" form-check-label" for="si-garantia">
+                        Si
+                    </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" value="No" id="no-garantia">
+                        <label class="form-check-label" for="no-garantia">
+                        No
+                    </label>
+                    </div>
+
+                </div>
+
+                <label for="inputGroupFile02" class="form-label">Cargar Imagen del Producto</label>
+                <div class="input-group mb-3 col-12">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Cargar</label>
+                </div>
+                <div class="form-floating mb-3 col-4">
+                    <input type="text" class="form-control" id="precio" value="" placeholder=" Precio del Producto" required>
+                    <label for="precio">* Precio</label>
+                </div>
+                <div class="form-floating mb-3 col-4">
+                    <input type="number" class="form-control" id="stock" value="" placeholder="Stock de Producto" required>
+                    <label for=" stock">* Stock</label>
+                </div>
+                <div class="form-floating mb-3 col-4">
+                    <input type="text" class="form-control" id="importe" value="" placeholder="Importe de Producto" required>
+                    <label for="importe">* Importe</label>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" onclick="registrar();" type="submit">Registrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="../js/registro-productos.js"></script>

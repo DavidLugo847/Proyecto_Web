@@ -44,6 +44,10 @@ h1 {
     border-radius: 5px;
 }
 
+.conts div {
+    text-align: justify;
+}
+
 .cont-m {
     display: flex;
     flex-wrap: wrap;
