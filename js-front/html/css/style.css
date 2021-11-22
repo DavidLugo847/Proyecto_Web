@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(https://s1.significados.com/foto/tecnologia-dura-fa.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.navs {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navs:hover {
+    color: rgb(136, 136, 136);
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2em 0 2em 0;
+    text-shadow: -4px 3px 2px #00000085;
+}
+
+.frmlabel {
+    font-size: 1.5em;
+    color: white;
+}
+
+input[type=text] {
+    width: 60%;
+    height: 3em;
+    margin: 0 auto;
+    padding-left: 1em;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.calc {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 8em;
+    height: 3em;
+    margin-top: 2em;
+    background: darkcyan;
+    cursor: pointer;
+}
+
+.calc:hover {
+    background: rgb(1, 111, 111);
+}
+
+.calc:active {
+    background: rgb(0, 49, 49);
+}
+
+.result {
+    margin-top: 2em;
+    width: 100%;
+    height: auto;
+    background: black;
+    color: rgb(0, 255, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Listar aprendces */
+
+.tb {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px rgb(0, 255, 0) solid;
+    font-style: normal;
+}
+
+.tb th {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: 1px rgb(0, 255, 0) dotted;
+}
+
+#Tabla td {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: 1px rgb(0, 255, 0) dotted;
+    border-top: 1px rgb(0, 255, 0) dotted;
+}
