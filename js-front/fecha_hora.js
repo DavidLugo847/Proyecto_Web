@@ -44,9 +44,9 @@
 // console.log("===Fecha y Hora local desfragmentada===");
 var currenTime = new Date();
 // console.log("Dia de la semana: " + currenTime.getDay());
-// console.log("Mes del año: " + currenTime.getMonth());
+// console.log("Mes del anio: " + currenTime.getMonth());
 // console.log("Dia del mes" + currenTime.getDate());
-// console.log("Año: " + currenTime.getFullYear());
+// console.log("Anio: " + currenTime.getFullYear());
 // console.log("Hora: " + currenTime.getHours());
 // console.log("Minutos: " + currenTime.getMinutes());
 // console.log("Segundos: " + currenTime.getSeconds());
@@ -60,7 +60,7 @@ var currenTime = new Date();
 // let diahoy = currenTime.getDay();
 // let meshoy = currenTime.getMonth();
 // let diames = currenTime.getDate();
-// let año = currenTime.getFullYear();
+// let anio = currenTime.getFullYear();
 // let h = parseInt(currenTime.getHours());
 // let m = currenTime.getMinutes();
 // let hc = 0;
@@ -79,7 +79,7 @@ var currenTime = new Date();
 // }
 
 
-// console.log("Hoy es " + dias[diahoy] + ", " + diames + " de " + meses[meshoy] + " del " + año + ".\n" + "Son las " + hc + ":" + m + " " + time)
+// console.log("Hoy es " + dias[diahoy] + ", " + diames + " de " + meses[meshoy] + " del " + anio + ".\n" + "Son las " + hc + ":" + m + " " + time)
 
 
 
@@ -87,16 +87,54 @@ var currenTime = new Date();
 
 
 
-let navidad = new Date("December 24, 2021");
-let tiempohoy = new Date();
+// let navidad = new Date("February 16, 2022");
+// let tiempohoy = new Date();
 
 
-let msNavidad = navidad.getTime();
-let hoy = tiempohoy.getTime();
-let msFaltantes = msNavidad - tiempohoy;
-let segundosFaltantes = msFaltantes / 1000;
-let minFaltantes = segundosFaltantes / 60;
-let horasFaltantes = minFaltantes / 60;
-let diasFaltantes = horasFaltantes / 24;
+// let msNavidad = navidad.getTime();
+// let hoy = tiempohoy.getTime();
+// let msFaltantes = msNavidad - tiempohoy;
+// let segundosFaltantes = msFaltantes / 1000;
+// let minFaltantes = segundosFaltantes / 60;
+// let horasFaltantes = minFaltantes / 60;
+// let diasFaltantes = horasFaltantes / 24;
 
-console.log("Segundos: " + Math.floor(segundosFaltantes) + "\n" + "Minutos: " + Math.floor(minFaltantes) + "\n" + "Horas: " + Math.floor(horasFaltantes) + "\n" + "Dias: " + Math.floor(diasFaltantes));
+// console.log("Segundos: " + Math.floor(segundosFaltantes) + "\n" + "Minutos: " + Math.floor(minFaltantes) + "\n" + "Horas: " + Math.floor(horasFaltantes) + "\n" + "Dias: " + Math.floor(diasFaltantes));
+
+
+
+
+
+
+function calcular() {
+    let fechaNacimiento = new Date("February 16, 2002");
+    let anioH = fechaNacimiento.getFullYear();
+    let mesH = fechaNacimiento.getMonth();
+    let diaH = fechaNacimiento.getDay();
+    let anioIng = parseInt(document.getElementById("anio").value);
+    let diaIng = parseInt(document.getElementById("dia").value);
+    let mesIng = parseInt(document.getElementById("mes").value);
+    let edad = 0;
+
+    anioRes = anioIng - anioH;
+
+
+    if (anioH < anioIng) {
+        if (mesH < mesIng) {
+            edad = anioIng - anioH;
+        } else if (mesH === mesIng && diaH <= diaIng) {
+            edad = anioIng - anioH;
+        } else {
+            edad = edad - 1;
+        }
+    } else if (anioH === anioIng) {
+        alert("Edad: 0 años.")
+    } else {
+        alert("Lo datos ingresados son incorrectos.")
+    }
+    alert("Edad: " + edad + " años.")
+
+
+
+
+}
