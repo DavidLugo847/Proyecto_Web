@@ -9,137 +9,45 @@ html {
 }
 
 body {
-    background: url(../images/paisaje.jpg) no-repeat center center fixed;
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1200/1709/Wet-street-water-dry-leaf-city_1920x1200.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-color: white;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 5em;
 }
 
-.navs {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.navs:hover {
-    color: rgb(136, 136, 136);
-}
-
-h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    padding: 5em;
-    text-shadow: -4px 3px 2px #00000085;
-}
-
-.conts {
-    width: 300px;
-    margin: 1em;
-    background: rgba(0, 0, 0, 0.666);
-    color: white;
-    border-radius: 5px;
-}
-
-.conts div {
-    text-align: justify;
-}
-
-.cont-m {
+#main {
     display: flex;
-    flex-wrap: wrap;
-    align-self: center;
+    flex-direction: column;
     justify-content: center;
+    margin-top: 1em;
+    background: rgb(111, 63, 255);
+    background: -moz-linear-gradient(90deg, rgba(111, 63, 255, 0.8) 0%, rgba(255, 63, 63, 0.8) 20%, rgba(255, 214, 63, 0.8) 40%, rgba(255, 214, 63, 0.29735644257703087) 60%, rgba(255, 214, 63, 0) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(111, 63, 255, 0.8) 0%, rgba(255, 63, 63, 0.8) 20%, rgba(255, 214, 63, 0.8) 40%, rgba(255, 214, 63, 0.29735644257703087) 60%, rgba(255, 214, 63, 0) 90%);
+    background: linear-gradient(90deg, rgba(111, 63, 255, 0.8) 0%, rgba(255, 63, 63, 0.8) 20%, rgba(255, 214, 63, 0.8) 40%, rgba(255, 214, 63, 0.29735644257703087) 60%, rgba(255, 214, 63, 0) 90%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#6f3fff", endColorstr="#ffd63f", GradientType=1);
+    border-radius: 30px;
+    width: 94%;
+    height: 400px;
 }
 
-.cabecera img {
-    border-radius: 5px;
-    width: 300px;
-    height: 200px;
-}
-
-.titulo p {
+#main div {
     font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 1.5em;
+    margin-left: 2em;
 }
 
-.titulo p span {
-    z-index: -5;
-    position: absolute;
-    padding: 2em 0 0 3em;
-    border-bottom: 3px goldenrod solid;
-}
-
-.char {
-    width: 100%;
-}
-
-
-/* Bloques html*/
-
-.c1,
-.c2,
-.c3 {
-    margin: 10px 10px 10px 10px;
-}
-
-.c1 {
-    float: left;
-}
-
-.c3 {
-    float: right;
-    margin-right: 50px;
-}
-
-.t1 {
-    font-size: 24pt;
-    text-align: justify;
-    margin-top: 2em;
-}
-
-
-/*Estilos de la tabla en bloques.html*/
-
-.tbloque {
-    width: 1000px;
-}
-
-.td1 {
-    border: rgb(57, 134, 49) 8px;
-    border-radius: 5px 5px 5px 5px;
-    background-color: rgb(57, 134, 49);
-    width: 600px;
-    height: 50px;
-}
-
-.td1 p {
-    text-align: center;
+#main div:nth-child(1) {
+    font-size: 3em;
+    margin-left: 1em;
     color: white;
 }
 
-.td2,
-.td3,
-.td4,
-.td5,
-.td6 {
-    border: white 8px;
-    background-color: rgb(122, 122, 122);
-    width: auto;
-    height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+#main div:nth-child(2) {
+    width: 650px;
 }
 
-.td2,
-.td3,
-.td4,
-.td5,
-.td6,
-td p {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.contenido {
+    display: flex;
 }
