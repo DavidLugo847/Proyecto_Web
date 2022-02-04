@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 2em;
     background: rgb(111, 63, 255);
     background: -moz-linear-gradient(90deg, rgba(111, 63, 255, 0.8) 0%, rgba(255, 63, 63, 0.8) 20%, rgba(255, 214, 63, 0.8) 40%, rgba(255, 214, 63, 0.29735644257703087) 60%, rgba(255, 214, 63, 0) 90%);
     background: -webkit-linear-gradient(90deg, rgba(111, 63, 255, 0.8) 0%, rgba(255, 63, 63, 0.8) 20%, rgba(255, 214, 63, 0.8) 40%, rgba(255, 214, 63, 0.29735644257703087) 60%, rgba(255, 214, 63, 0) 90%);
@@ -50,4 +50,17 @@ body {
 
 .contenido {
     display: flex;
+    justify-content: center;
+}
+
+.contenido div {
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+.contenido img {
+    width: 200px;
 }
