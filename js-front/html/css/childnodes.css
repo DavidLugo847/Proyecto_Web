@@ -1,0 +1,19 @@
+label {
+  font-size: 1, 4em;
+}
+#viajes {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+td{
+    width: 150px;
+    height: 60px;
+}
+table{
+    margin: 0 auto;
+}
+.dispo{
+    color: green;
+    font-weight: bold;
+}
