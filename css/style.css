@@ -63,4 +63,7 @@ body {
 
 .contenido img {
     width: 200px;
+} .navs{
+    color: rgb(211, 197, 9);
+    font-family: 'Roboto', sans-serif;
 }
