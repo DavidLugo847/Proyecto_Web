@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    cursor: pointer;
+}
+#exa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#img1,#img2, #img3{
+    width: 400px;
+}
+
+.img-invisible{
+    display: none;
+}
+.img-visible{
+    display: block;
+}
+
+#imagenes img{
+    width: 300px;
+}
+
+#imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.imgprincipal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background: black;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#sec{
+    margin-top: 5em;
+    width: 100%;
+    height: 40px;
+    background: black;
+}
+
+#sec p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/imagenesModif.css">
+    <title>Manupulacion de imagenes</title>
+</head>
+<body>
+
+<!-- Cargar una imagen y que al pasar el mouse por encima de la imagen me genere un mensaje de alerta -->
+<!-- 1. Que la imagen tenga un id y utilizar el evento onmouseover();
+2. Llamar la funcion desde el HTML.
+3. En la funcion ejecutar un alert. -->
+
+<div id="exa">
+    <img id="img1" src="img/ek9.jpg" onmouseover="mouseImagen();" alt="ek9">
+    <img id="img2" src="img/integra.jpg" onmouseover="turnhidden();" onmouseleave="turnvisible();" alt="dc2">
+    <img id="img3" src="img/crx.jpg" onmouseover="cambiarImagen();" onmouseleave="returnImg();" alt="crx">
+</div>
+
+
+
+<div class="imgprincipal"><img id="imgprincipal" src="img/ek9poster.jpg" alt=""></div>
+<div id="imagenes">
+    <img id="pic1" src="img/ek9.jpg" onmouseover="cambioDeImagen('imgprincipal', 'img/ek9poster.jpg')" alt="ek9">
+    <img id="pic2" src="img/integra.jpg" onmouseover="cambioDeImagen('imgprincipal', 'img/dc2poster.jpg')" alt="dc2">
+    <img id="pic3" src="img/crx.jpg" onmouseover="cambioDeImagen('imgprincipal', 'img/crxposter.jpg')" alt="crx">
+    <img id="pic4" src="img/nsx.jpg" onmouseover="cambioDeImagen('imgprincipal', 'img/nsxposter.jpg')" alt="nsx">
+    <img id="pic5" src="img/prelude.jpg" onmouseover="cambioDeImagen('imgprincipal', 'img/preludeposter.png')" alt="h22">
+    <img id="pic6" src="img/eg6.jpg" onmouseover="cambioDeImagen('imgprincipal', 'img/eg6poster.png')" alt="eg6">
+</div>
+
+<div id="sec"><p>MUGEN POWER 1990</p></div>
+
+    
+</body>
+<script src="js/28-manipular-imagenesy-texto.js"></script>
+</html>
