@@ -16,23 +16,29 @@ function returnImg(){
 }
 
 
+
+function cambioDeImagen(id, ruta){
+    let imagen = document.getElementById(id);
+    imagen.src=ruta;
+}
+
 // Autos cambios
 
-function cambio1(){
-    document.getElementById("imgprincipal").src="img/ek9poster.jpg";
-}
-function cambio2(){
-    document.getElementById("imgprincipal").src="img/dc2poster.jpg";
-}
-function cambio3(){
-    document.getElementById("imgprincipal").src="img/crxposter.jpg";
-}
-function cambio4(){
-    document.getElementById("imgprincipal").src="img/nsxposter.jpg";
-}
-function cambio5(){
-    document.getElementById("imgprincipal").src="img/preludeposter.png";
-}
-function cambio6(){
-    document.getElementById("imgprincipal").src="img/eg6poster.png";
-}
+// function cambio1(){
+//     document.getElementById("imgprincipal").src="img/ek9poster.jpg";
+// }
+// function cambio2(){
+//     document.getElementById("imgprincipal").src="img/dc2poster.jpg";
+// }
+// function cambio3(){
+//     document.getElementById("imgprincipal").src="img/crxposter.jpg";
+// }
+// function cambio4(){
+//     document.getElementById("imgprincipal").src="img/nsxposter.jpg";
+// }
+// function cambio5(){
+//     document.getElementById("imgprincipal").src="img/preludeposter.png";
+// }
+// function cambio6(){
+//     document.getElementById("imgprincipal").src="img/eg6poster.png";
+// }
