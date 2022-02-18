@@ -16,8 +16,11 @@ body {
     background-size: cover;
     background-color: white;
     margin-left: 5em;
-}
 
+}
+#titulo-principal{
+    color: white;
+}
 #main {
     display: flex;
     flex-direction: column;
@@ -30,12 +33,13 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#6f3fff", endColorstr="#ffd63f", GradientType=1);
     border-radius: 30px;
     width: 94%;
-    height: 400px;
+    height: 300px;
 }
 
 #main div {
     font-size: 1.5em;
     margin-left: 2em;
+    
 }
 
 #main div:nth-child(1) {
@@ -63,7 +67,30 @@ body {
 
 .contenido img {
     width: 200px;
-} .navs{
+} 
+.navs{
     color: rgb(211, 197, 9);
+    background-color: black;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    display: block;
+}
+.ft{
+    height: 100px;
+    width: 100%;
+    background: rgba(31, 31, 31, 0.392);
+    margin-top:5em;
+}
+
+.cont-m{
+    display: flex;
+   flex-wrap:wrap;
+   margin-left: 7em;
+
+}
+.conts{
+    display: block;
+    margin: 1em;
+    
 }
