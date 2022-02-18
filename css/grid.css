@@ -11,7 +11,7 @@ h1 {
     /* grid-template-columns: 100px 100px 100px; */
     /* Centrado de elementos con grid */
     grid-template-columns: 1fr 200px 1fr;
-    grid-template-rows: 1fr 200px 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
     justify-content: center;
     width: 90%;
