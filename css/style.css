@@ -182,7 +182,6 @@ width: 1px;
 .cuerpomenu div a:hover{
 text-decoration: underline;
 }
-
 .contlink{
     grid-column-start:2;
     grid-column-end:5;
@@ -207,7 +206,6 @@ text-decoration: underline;
     text-align: left;
     line-height: 48px;
 }
-
 .contenido{
   display: flex;
 }

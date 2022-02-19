@@ -10,14 +10,9 @@
     <meta name="keywords" content="HTML,CSS3,JavaScript">
     <title>Ejercicios de HTML</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-bloques.css">
     <link rel="stylesheet" href="../fonts/style.css">
-    <link rel="stylesheet" href="../css/style-menu.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="../js/main-anim.js"></script>
+  
 </head>
 
 <body>
@@ -26,458 +21,104 @@
     <header>
 
 
-        <nav>
-            <div class="bar">
-                <div class="menu-bar">
-                    <a class="bt-menu" href="#"><span class="icon-menu1"></span></a>
-                </div>
+        <div id="nav">
+            <div class="bar-content">
+              <div>
+                <img src="images/fileexplorer.png" alt="" />
+              </div>
+              <div>
+                <a class="element" title="Home" href="index.html"
+                  >Repositorio - C:\WINDOWS\95\UI\by\DavidLugo\HTML</a>
+              </div>
             </div>
-            <div id="main-content">
-                <div class="cont">
-                    <div class="cont-home"><a class="element-home" title="Volver al Inicio" href="../index.html"><span class="icon icon-home_filled"></span>Inicio</a>
-                    </div>
-
-                    <hr class="ln line-space">
-
-                    <a class="element" title="Unboxing de Productos" href="../js-front/front.html"><span class="icon icon-dashboard2"></span>JS Front-End</a>
-
-                    <a class="element" title="Unboxing de Productos" href="enlaces/deportes.html"><span class="icon icon-add_shopping_cart"></span>Carrito</a>
-                    <a class="element" title="Formulario de Compra" href="link/formcompra.html"><span class="icon icon-search"></span>Busqueda</a>
-                    <a class="element" title="Formulario de Compra" href="link/bloques.html"><span class="icon icon-lab"></span>Laboratorio</a>
-                    <a class="element" title="Ejemplo de Menu con Background" href="link/nav-bg.html"><span class="icon icon-picture-o"></span>Navbar con BG</a>
-                    <a class="element" title="Menu Vertical adaptable" href="link/menu-vertical-responsive.html"><span class="icon icon-screen_lock_landscape"></span>Menu V Responsive</a>
-                    <a class="element" title="Formulario usando gradients" href=" link/formulario-avanzado.html "><span class="icon icon-wpforms"></span>Form Avanzado</a>
-                    <a class="element" title="Gradientes de CSS" href="link/gradients.html "><span class="icon icon-gradient"></span>Gradientes</a>
-                    <a class="element" title="Menu adaptable Horizontal vertical con Media Querys" href="link/menu-responsive-2.html "><span class="icon icon-mobile-devices"></span>Menu Responsive 2</a>
-                    <a class="element" title="Flexbox todos los ejemplos de alienacion" href="link/flexbox.html "><span class="icon icon-grid_view"></span>Flexbox</a>
-
-
-                    <a class="element" title="Login usando flexbox" href="link/login-flexbox.html "><span class="icon icon-login"></span>Login-Flexbox</a>
-                </div>
-            </div>
-        </nav>
+          </div>
 
 
     </header>
-    <h1 id="titulo-principal">Ejercicios de HTML</h1>
+    <body>
+        
+
+    <div class="bar2">
+        <div class="borde"></div>
+        <div class="opcion"> 
+          <a href="#" onmouseover="underline1('sp');" onmouseleave="unline1('sp')"><span id="sp">A</span>rchivo</a>
+          <a href="#" onmouseover="underline2('sp1');" onmouseleave="unline2('sp1')"><span id="sp1">E</span>dicion</a>
+          <a href="#" onmouseover="underline3('sp2');" onmouseleave="unline3('sp2')"><span id="sp2">V</span>er</a>
+          <a href="#" onmouseover="underline4('sp3');" onmouseleave="unline4('sp3')"><span id="sp3">I</span>r</a>
+          <a href="#" onmouseover="underline5('sp4');" onmouseleave="unline5('sp4')"><span id="sp4">F</span>avoritos</a>
+          <a href="#" onmouseover="underline6('sp5');" onmouseleave="unline6('sp5')"><span id="sp5">H</span>erramientas</a>
+          <a href="#" onmouseover="underline7('sp6');" onmouseleave="unline7('sp6')"><span id="sp6">A</span>yuda</a>
+        </div>
+      </div>
+      <div class="bar3">
+          <div class="borde"></div>
+      </div>
+      <div class="bar4">
+          <div class="borde"></div>
+      </div>
+      <div id="main2">
+
+        <div class="menulateral2">
+          <div class="barmenu2">
+            <p>Carpetas</p>
+            <p>X</p>
+          </div>
+          <div class="cuerpomenu2">
+            <div><img src="images/directory.png" alt=""><a href="">Repositorio Remoto</a></div>
+          </div>
+        </div>
+        <div class="contlink2">
 
 
 
-    <div class="cont-m">
-
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Posicion Absoluta" href="menu-absolute.html">Menu Position Absolute</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Posicion Fixed" href="menu-fixed.html">Menu Position Fixed</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Background" href="nav-bg.html">Navbar con Background</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu Vertical" href="nav-vertical.html">Navbar Vertical</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu Horizontal" href="nav-horizontal.html">Navbar Horizontal</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con subitems" href="menu-sub-items.html">Menu Sub Items</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Media Querys" href="layout-media-query.html">Layout-Media-Query</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Menu para Movil" href="menu-responsive.html">Menu Responsive</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Menu Vertical adaptable" href="menu-vertical-responsive.html">Menu Vertical Responsive</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Formulario usando gradients" href=" formulario-avanzado.html ">Formulario Avanzado</a></p>
-            </div>
-         
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Gradientes de CSS" href="gradients.html ">Gradientes</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Menu adaptable Horizontalt vertical con Media Querys" href="menu-responsive-2.html ">Menu Responsive 2</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Flexbox todos los ejemplos de alienacion" href="flexbox.html ">Flexbox</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Login usando flexbox" href="login-flexbox.html">Login-Flexbox</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Espaciado de Flex Gap" href="flex-gap.html">Flex Gap</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Espaciado de Order" href="flex-order.html">Flex Order</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grow" href="flex-grow.html">Flex Grow</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Shrink" href="flex-shrink.html">Flex Shrink</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Basis" href="flex-basis.html">Flex Basis</a></p>
-            </div>
-            
-        </div>
-
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid-medidas-minimas.html">Grid Medidas MInimas</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid-posicionamiento.html">Grid Posicionamiento</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid-repeat.html">Grid Repeat</a></p>
-            </div>
-          
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid.html">Grid</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid-calendario.html">Calendario Oscuro</a></p>
-            </div>
-             
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid-calendario-claro.html">Calendario Claro</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="grid-desafio.html">Desafio-Maquetacion</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Grid" href="desafio-2.html">Desafio-Maquetacion-2</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Bootstrap" href="bootstrap-online.html">Bootstrap Online</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Bootstrap" href="bootstrap-offline.html">Bootstrap Offline</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Bootstrap" href="bootstrap-offline-productos.html">Bootstrap Offline Productos</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultimg.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Bootstrap" href="registro-productos-bootstrap.html">Bootstrap Registro de Productos</a></p>
-            </div>
-            
-        </div>
+          <div class="contenido2">
+            <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div> <div>
+            <a href="js-front/front.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de JS</span></a>
+          </div>
+          <div>
+            <a href="link/bloques.html"><img src="images/carpeta.png" alt="folder"><span>Ejercicios de HTML</span></a>
+          </div>
+          </div>
+        </div>    
+    <div class="endwindow2">
+        <p>Copia los elementos seleccionados al Portapapeles. Para colocar la nueva ubicación, use el comando Pegar.</p>
     </div>
-    </div>
-
-
-    <!-- <center>
-        <h1 class="letterspace ">Espaciado de Letra</h1>
-    </center> -->
-    <!--
-   <p class="linespaces " >
-
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae eaque minima
-     ex dolorum ad in fugit, saepe odio numquam amet, sunt modi alias dolorem quam nesciunt nulla aspernatur eum! Illo?
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, impedit cupiditate ut voluptatibus corrupti voluptate!
-      Esse temporibus obcaecati provident veniam autem aut, et eius quibusdam sequi, consectetur libero, saepe cum.
-</p>
-<p class="alineacion-izquierda ">
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-        Este texto se encuentra centrado a la izquierda.<br>
-</p>
-<p class="alineacion-derecha ">
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-        Este texto se encuentra centrado a la derecha.<br>
-</p>
-<p class="alineacion-central ">
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-        Este texto se encuentra centrado a al centro..<br>
-</p>
-<p class="alineacion-justificada ">
-        Lorem ipsum dolor, sit amet consectetur adipisicing 
-        elit. Vero, modi tempora ipsa sapiente et esse quo 
-        dolor voluptatem, impedit eos inventore ipsum aspernatur
-        corporis! Dignissimos officia error aut modi laudantium?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Voluptatum cum praesentium quae reprehenderit blanditiis!
-        Asperiores praesentium ab, odit voluptas ducimus aspernatur 
-        pariatur corrupti veniam fugit omnis nobis eum tempore numquam.
-</p>
-<p class="indentado "><span class="letra ">L</span>orem ipsum dolor, sit amet adipisicing elit. Perferendis earum sequi id odit eveniet quis eligendi illum. Facere obcaecati dolore minus id illo, voluptatum laborum corrupti tenetur odio ullam ipsum.</p>
-
-<blockquote>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-        Este es un blockquote, o comunmente llamado como cita en bloque.<br>
-</blockquote>
--->
-
-    <!-- <div class="divprincipal ">
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-        <div class="margenes "></div>
-    </div> -->
-    <!--
-<div class="mipadding ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, tenetur iure. Repellat deserunt laudantium assumenda officiis harum cum nostrum expedita. ipsum dolor sit amet consectetur, adipisicing elit. Eos, facilis tenetur corrupti, explicabo ipsa totam molestiae fugit, reiciendis minima soluta modi vero dolores fuga magnam labore. Aspernatur modi reprehenderit nihil!</div>
-<div class="mipadding2 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum rerum quam omnis corrupti! Non inventore animi sequi vitae consequuntur asperiores. ipsum dolor sit amet consectetur, adipisicing elit. Eos, facilis tenetur corrupti, explicabo ipsa totam molestiae fugit, reiciendis minima soluta modi vero dolores fuga magnam labore. Aspernatur modi reprehenderit nihil!</div>
-<div class="mipadding3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum rerum quam omnis corrupti! Non inventore animi sequi vitae consequuntur asperiores. ipsum dolor sit amet consectetur, adipisicing elit. Eos, facilis tenetur corrupti, explicabo ipsa totam molestiae fugit, reiciendis minima soluta modi vero dolores fuga magnam labore. Aspernatur modi reprehenderit nihil!</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div class="c1 "><img id="ir-paris " class="paris " src="../images/paris.jpg "></div>
-<p class="t1 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam provident consectetur doloremque harum? Cum, aspernatur eaque incidunt maxime explicabo assumenda? Dolorum, blanditiis odit, aliquid ad animi provident placeat eos harum autem culpa ea aliquam velit qui ab ut reiciendis cumque quia fuga consequatur laudantium omnis nihil hic incidunt non? Error, quia nemo cupiditate tempore sit fugiat, iste, molestias tempora quos voluptates sapiente incidunt! Ullam nam dolorem fugiat iste quia odio ab impedit autem similique provident sit modi nisi pariatur, cum molestiae iusto. Voluptatibus dolorum culpa eum esse est vitae beatae aut, inventore, repudiandae rem nihil voluptas, assumenda quidem laborum suscipit!</p>
-<div class="c3 "><img id="ir-venecia " class="venecia " src="../images/venecia.jpg "></div>
-<p class="t1 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam veniam iste officia repellendus quam provident dolores sapiente! Minus vitae nisi doloremque possimus modi. Culpa sit quod laudantium voluptatem porro corrupti a suscipit enim dicta qui laborum totam ipsam nesciunt fugiat, atque alias architecto ea vel? Autem nemo tenetur, corrupti at provident ab voluptas ipsa praesentium commodi mollitia neque quis modi hic nisi a soluta nam excepturi cum rerum atque eum optio odio totam? Magnam porro perferendis voluptatem aliquam excepturi nihil necessitatibus. Nesciunt architecto, libero molestiae quibusdam possimus sit distinctio sunt. Sequi qui iure rem dolor eos. Provident veritatis nesciunt quis.</p>
-
-<a href="bloques.html#titulo-principal ">Ir al titulo principal</a><br><br>
-<a href="bloques.html#paris ">Ir a paris</a><br><br>
-<a href="bloques.html#venecia ">Ir al venecia</a><br><br><br><br><br><br>
-
-<h1>MAPA DE IMAGEN</h1><br><br>
-<img src="../images/skyline.jpg " alt="Nissan Skyline " usemap="#skyline ">
-<map name="skyline ">
-<area shape="rect " coords="0,0,209,241 " target="_Blank " href="https://www.auto-data.net/es/nissan-skyline-r30-generation-110 ">
-</map><br><br>
-<p>IMAGEN CIRCULAR</p><br><br>
-<img src="../images/monedas.png " alt="Monedas Japonesas " usemap="#monedas ">
-<map name="monedas ">
-<area shape="circle " coords="236,192,44 " target="_Blank " href="http://unajaponesaenjapon.com/43266/la-moneda-de-5-yenes-y-su-doble-significado-en-japon-goen-to-goen ">
-</map><br><br>
-
-<p>IMAGEN POLIGONAL</p><br><br>
-<img src="../images/initiald.jpeg " alt="Takumi Fujiwara " usemap="#takumi ">
-<map name="takumi ">
-<area shape="polygon " coords="361,150,447,56,530,150,447,241 " target="_Blank " href="https://initiald.fandom.com/wiki/Takumi_Fujiwara ">
-</map>
-<br><br><br><br>
--->
-    <!-- <table class="tbloque ">
-        <tr>
-            <td class="td1 ">
-                <p>ID</p>
-            </td>
-            <td class="td1 ">
-                <p>NOMBRES</p>
-            </td>
-            <td class="td1 ">
-                <p>APELLIDOS</p>
-            </td>
-            <td class="td1 " colspan="2 ">
-                <p>TELEFONO</p</td>
-                    <td class="td1 ">
-                        <p>EDAD</p>
-                    </td>
-                    <td class="td1 ">
-                        <p>EMAIL</p>
-                    </td>
-                    <td class="td1 ">
-                        <p>CIUDAD</p>
-                    </td>
-        </tr>
-        <tr>
-            <td class="td2 ">1</td>
-            <td class="td2 ">Andrea</td>
-            <td class="td2 ">Sanchez Gomez</td>
-            <td class="td2 ">3123123232</td>
-            <td class="td2 ">3132259690</td>
-            <td class="td2 ">16</td>
-            <td class="td2 ">andrea@mail.com</td>
-            <td class="td2 " rowspan="3 ">Pitalito</td>
-        </tr>
-        <tr>
-            <td class="td3 ">2</td>
-            <td class="td3 ">Elver</td>
-            <td class="td3 ">Galarga Sanchez</td>
-            <td class="td3 ">3129499598</td>
-            <td class="td2 ">3148586990</td>
-            <td class="td3 ">19</td>
-            <td class="td3 ">elver@mail.com</td>
-        </tr>
-        <tr>
-            <td class="td4 ">3</td>
-            <td class="td4 ">Zacarias</td>
-            <td class="td4 ">Mota Perez</td>
-            <td class="td4 ">3219994404</td>
-            <td class="td2 ">3209859976</td>
-            <td class="td4 ">22</td>
-            <td class="td4 ">zacarias@mail.com</td>
-        </tr>
-        <tr>
-            <td class="td5 ">4</td>
-            <td class="td5 ">Maria Jose</td>
-            <td class="td5 ">Martinez Ortiz</td>
-            <td class="td5 ">3119495504</td>
-            <td class="td2 ">3123123232</td>
-            <td class="td5 ">16</td>
-            <td class="td5 ">maria@mail.com</td>
-            <td class="td2 ">Neiva</td>
-        </tr>
-        <tr>
-            <td class="td6 ">5</td>
-            <td class="td6 ">David</td>
-            <td class="td6 ">Santos</td>
-            <td class="td6 ">3132833525</td>
-            <td class="td2 ">3193093383</td>
-            <td class="td6 ">19</td>
-            <td class="td6 ">krt847@gmail.com</td>
-            <td class="td2 ">Florencia</td>
-        </tr>
-
-
-
-
-    </table> -->
+</div>
 
 
 
@@ -485,5 +126,5 @@
 
 
 </body>
-
+<script src="js/scripthome.js"></script>
 </html>
