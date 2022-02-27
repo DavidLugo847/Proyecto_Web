@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../html/css/carritoCompras.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+
+<div id="main"> 
+    <div class="cont">
+<div class="cont-1">
+    <div class="subtotal"><p>SubTotal <span>COP</span><span id="sub">$0</span></p></div>
+    <a class="paybtn"><img href="#"><div><p>Proceder al Pago (<span id="cant">0</span> productos)</p></div></a>
+    <div class="gift"><input type="checkbox"><span>Envía como regalo. Devolución fácil.</span></div>
+    <hr>
+</div>
+
+<div class="cont-2">
+<div class="libImg"><img src="../html/img/jslibro.jpg" alt=""></div>
+<div class="textprod"><p>JavaScript The Definitive Guide
+                        Master the World's Most-Used
+                        Programing Languaje
+                    </p>
+                    <p>por David Flanagan</p>
+
+                    <p><span class="sp1">#1 más vendido</span> en Programación JavaScript</p>
+                    <p>Tapa Blanda</p>
+                    <p>COP <span class="sp2">130.000</span></p>
+                    <p>Disponible</p>
+                </div>
+                    
+
+<div class="cant">
+    <input onclick="quit();" type="button" value="-">
+    <div id="cantProd">0</div>
+    <input onclick="add();" type="button" value="+">
+</div>
+
+<div class="btn">
+    <input onclick="del();" type="button" value="Eliminar">
+    <input type="button" value="Guardar para mas tarde">
+    <a href="#">Comparar con articulos similares</a>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+<script src="../carritoCompras.js"></script>
+</html>
