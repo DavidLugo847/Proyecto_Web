@@ -1,49 +1,52 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-#main{
+
+#main {
     display: grid;
     height: 100vh;
     justify-content: center;
     grid-template-columns: repeat(2, 200px);
     grid-template-rows: 400px;
-    grid-template-areas: 
-    
-    "a a"
-    "b b";
+    grid-template-areas: "a a" "b b";
     justify-self: center;
 }
-.cont{
+
+.cont {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.425);
     width: 450px;
     height: 600px;
 }
-.cont-1{
+
+.cont-1 {
     grid-area: a;
 }
-.cont-2{
+
+.cont-2 {
     grid-area: b;
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: 250px 200px;
-    
 }
-.subtotal{
+
+.subtotal {
     margin-left: 1em;
     font-family: 'Roboto';
     font-size: 1.4em;
     font-weight: 300;
 }
-.subtotal span:nth-child(1){
-    font-weight: bold;
-}
-.subtotal span:nth-child(2){
-    font-size: 1.5em;  
+
+.subtotal span:nth-child(1) {
     font-weight: bold;
 }
 
-.paybtn div{
+.subtotal span:nth-child(2) {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.paybtn div {
     width: 90%;
     height: 40px;
     background: yellow;
@@ -52,92 +55,105 @@
     margin-bottom: 1em;
     cursor: pointer;
 }
-.paybtn div:hover{
-    background: rgb(155, 155, 0);
 
+.paybtn div:hover {
+    background: rgb(155, 155, 0);
 }
-.paybtn div p{
+
+.paybtn div p {
     text-align: center;
     color: black;
     text-decoration: none;
     line-height: 2.7em;
     font-family: 'Roboto';
 }
-.libImg img{
+
+.libImg img {
     width: 150px;
     margin-left: 1.5em;
     border: 1px rgb(189, 189, 189) solid;
 }
-.gift{
+
+.gift {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 1em;
     margin-left: 1.5em;
 }
-.gift input{
+
+.gift input {
     width: 25px;
     height: 25px;
     border-radius: 5px;
     margin-right: 1em;
     cursor: pointer;
 }
-.gift span{
+
+.gift span {
     font-family: 'Roboto';
 }
-hr{
+
+hr {
     border: 1px rgb(207, 207, 207) solid;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 1em;
 }
 
-.textprod{
+.textprod {
     width: 250px;
 }
-.textprod p{
+
+.textprod p {
     font-family: 'Roboto';
 }
-.textprod p:first-child{
+
+.textprod p:first-child {
     line-height: 1em;
     margin-bottom: 1em;
 }
-.textprod p:nth-child(2){
-    
+
+.textprod p:nth-child(2) {
     margin-bottom: 0.5em;
 }
-.textprod p:nth-child(3){
-     font-size: 0.9em;
+
+.textprod p:nth-child(3) {
+    font-size: 0.9em;
     color: rgb(95, 95, 95);
     margin-bottom: 0.2em;
     line-height: 1.5em;
 }
-.textprod p:nth-child(4){
+
+.textprod p:nth-child(4) {
     font-family: 'Roboto';
     font-weight: bold;
     margin-bottom: 0.5em;
-
 }
-.textprod p:nth-child(5){
+
+.textprod p:nth-child(5) {
     font-family: 'Roboto';
     margin-bottom: 1em;
 }
-.textprod p:nth-child(6){
-    color: rgb(91, 201, 2);
 
+.textprod p:nth-child(6) {
+    color: rgb(91, 201, 2);
 }
-.sp1{
+
+.sp1 {
     font-family: 'Roboto';
-    background:rgb(255, 115, 0);
+    background: rgb(255, 115, 0);
     color: white;
     padding-left: 0.2em;
     padding-right: 0.2em;
 }
-.sp2{
+
+.sp2 {
     font-size: 1.5em;
     font-family: 'Ubuntu';
 }
-.cant{
+
+.cant {
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -145,9 +161,9 @@ hr{
     border: rgb(211, 211, 211)1.2px solid;
     border-radius: 10px;
     margin-left: 1.5em;
-
 }
-.cant input{
+
+.cant input {
     outline: none;
     width: 60px;
     height: 40px;
@@ -155,64 +171,72 @@ hr{
     color: rgb(117, 117, 117);
     border: none;
     cursor: pointer;
-
 }
 
-.cant input:nth-child(1){
+.cant input:nth-child(1) {
     border-right: rgb(211, 211, 211) 1.2px solid;
     border-radius: 9px 0 0 9px;
     font-size: 1.6em;
-
 }
-.cant input:nth-child(3){
+
+.cant input:nth-child(3) {
     border-left: rgb(211, 211, 211) 1.2px solid;
     border-radius: 0 9px 9px 0;
     font-size: 1.5em;
 }
-.cant input:hover{
+
+.cant input:hover {
     background: rgb(197, 197, 197);
 }
-.cant div{
+
+.cant div {
     width: 60px;
     height: 38px;
     text-align: center;
     line-height: 2.5em;
 }
-.bottombtn{
+
+.bottombtn {
     grid-column-start: 2;
     grid-template-rows: 2;
 }
-.btn{
+
+.btn {
     margin-left: 2em;
 }
-.btn input{
-font-family: 'Roboto';
-font-size: 0.9em;
-text-align: left;
-padding-left: 0.5em;
-height: 40px;
-border-radius: 6px;
-background: white;
-border: rgb(211, 211, 211)1.2px solid;
-cursor: pointer;
 
+.btn input {
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    text-align: left;
+    padding-left: 0.5em;
+    height: 40px;
+    border-radius: 6px;
+    background: white;
+    border: rgb(211, 211, 211)1.2px solid;
+    cursor: pointer;
 }
-.btn input:first-child{
+
+.btn input:first-child {
     width: 120px;
     margin-bottom: 1em;
 }
-.btn input:nth-child(2){
+
+.btn input:nth-child(2) {
     width: 180px;
     margin-bottom: 0.5em;
 }
-.btn a{
+
+.btn a {
     font-family: 'Roboto';
     text-decoration: none;
     color: darkcyan;
 }
-.btn a:hover{
+
+.btn a:hover {
     color: rgb(0, 74, 80);
 }
-.btn input:hover{
+
+.btn input:hover {
     background: rgb(226, 226, 226);
 }
