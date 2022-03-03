@@ -5,97 +5,106 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ejemplo de HTML5">
-    <meta name="keywords" content="HTML,CSS3,JavaScript">
-    <title>Ejerciciosde JS</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../fonts/style.css">
-    <link rel="stylesheet" href="../css/style-menu.css">
-
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="../js/main-anim.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ejemplo de HTML5" />
+    <meta name="keywords" content="HTML,CSS3,JavaScript" />
+    <title>Fotografias del Mundo</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="fonts/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <script src="js/main-anim.js"></script>
 </head>
 
 <body>
+    <div id="nav">
+        <div class="bar-content">
+            <div>
+                <img src="../images/fileexplorer.png" alt="" />
+            </div>
+            <div>
+                <a class="element" title="Home" href="../index.html">Repositorio - C:\WINDOWS\95\UI\by\DavidLugo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bar2">
+        <div class="borde"></div>
+        <div class="opcion">
+            <a href="#" onmouseover="underline1('sp');" onmouseleave="unline1('sp')"><span id="sp">A</span>rchivo</a>
+            <a href="#" onmouseover="underline2('sp1');" onmouseleave="unline2('sp1')"><span id="sp1">E</span>dicion</a>
+            <a href="#" onmouseover="underline3('sp2');" onmouseleave="unline3('sp2')"><span id="sp2">V</span>er</a>
+            <a href="#" onmouseover="underline4('sp3');" onmouseleave="unline4('sp3')"><span id="sp3">I</span>r</a>
+            <a href="#" onmouseover="underline5('sp4');" onmouseleave="unline5('sp4')"><span id="sp4">F</span>avoritos</a>
+            <a href="#" onmouseover="underline6('sp5');" onmouseleave="unline6('sp5')"><span id="sp5">H</span>erramientas</a>
+            <a href="#" onmouseover="underline7('sp6');" onmouseleave="unline7('sp6')"><span id="sp6">A</span>yuda</a>
+        </div>
+    </div>
+    <div class="bar3">
+        <div class="borde"></div>
+    </div>
+    <div class="bar4">
+        <div class="borde"></div>
+    </div>
 
 
-    <header>
+    <div id="main">
+
+        <div class="menulateral">
+            <div class="barmenu">
+                <p>Carpetas</p>
+                <p>X</p>
+            </div>
+            <div class="cuerpomenu">
+                <div><img src="../images/directory.png" alt=""><a href="">Repositorio Remoto</a></div>
+            </div>
+        </div>
+        <div class="contlink">
 
 
-        <nav>
-            <div class="bar">
-                <div class="menu-bar">
-                    <a class="bt-menu" href="#"><span class="icon-menu1"></span></a>
+
+            <div class="contenido">
+                <div>
+                    <a href="html/carritoCompras.html"><img src="../images/carpeta.png" alt="folder"><span>Carrito de Compras</span></a>
                 </div>
-            </div>
-            <div id="main-content">
-                <div class="cont">
-                    <div class="cont-home"><a class="element-home" title="Volver al Inicio" href="../index.html"><span class="icon icon-home_filled"></span>Inicio</a>
-                    </div>
-
-                    <hr class="ln line-space">
-
-                    <hr class="ln line-space">
-                    <a class="element" title="Front End Basico" href="../link/bloques.html"><span class="icon icon-lab"></span>Ejercicios de HTML</a>
-                    <a class="element" title="Front End con JS" href="front.html"><span class="icon icon-dashboard2"></span>JS Front-End</a>
+                <div>
+                    <a href="html/27-configurando-texto.html"><img src="../images/carpeta.png" alt="folder"><span>Configuración del Texto</span></a>
                 </div>
+                <div>
+                    <a href="html/35-DOM-EtiquetasPorNombre.html"><img src="../images/carpeta.png" alt="folder"><span>Etiquetas Por Nombre</span></a>
+                </div>
+                <div>
+                    <a href="html/coincidencias.html"><img src="../images/carpeta.png" alt="folder"><span>Coincidencias</span></a>
+                </div>
+                <div>
+                    <a href="html/32-DOM-childNodes.html"><img src="../images/carpeta.png" alt="folder"><span>Child Nodes</span></a>
+                </div>
+                <div>
+                    <a href="html/28-manipular-imagenesy-texto.html"><img src="../images/carpeta.png" alt="folder"><span>Manipulacion de Imagenes</span></a>
+                </div>
+                <div>
+                    <a href="html/31-dom.html"><img src="../images/carpeta.png" alt="folder"><span>DOM</span></a>
+                </div>
+                <div>
+                    <a href="html/"><img src="../images/carpeta.png" alt="folder"><span>Coincidencias</span></a>
+                </div>
+
             </div>
-        </nav>
+        </div>
 
 
-    </header>
-    <h1 id="titulo-principal">Ejercicios de JavaScript</h1>
+        <div class="endwindow">
+            <p>Copia los elementos seleccionados al Portapapeles. Para colocar la nueva ubicación, use el comando Pegar.</p>
+        </div>
+    </div>
 
 
 
-    <div class="cont-m">
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Manipulacion de Imagen" href="../js-front/html/28-manipular-imagenesy-texto.html"> Manipulacion de Imagen</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Ajuste de text" href="../js-front/html/27-configurando-texto.html">Configurando Texto en Parrafo</a></p>
-            </div>
-            
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Posicion Absoluta" href="../js-front/html/1_modeStrict.html">Modo Estricto</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Posicion Fixed" href="../js-front/html/11-for.html">Ciclo For</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Background" href="../js-front/html/numLetras.html">Contar Caracteres</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Background" href="../js-front/html/coincidencias.html">Busqueda de coincidencias</a></p>
-            </div>
-           
-        </div>
-        <div class="conts">
-            <div class="cabecera"><img src="../images/defaultjs.png"></div>
-            <div class="titulo">
-                <p><span></span><a class="navs" title="Ejemplo de Menu con Background" href="../js-front/html/listarAprendices.html">Listar Aprendices</a></p>
-            </div>
-           
-        </div>
+
+
+
+</body>
+<script src="js/scripthome.js"></script>
+
+</html>
