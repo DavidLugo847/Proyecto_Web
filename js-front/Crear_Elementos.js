@@ -39,7 +39,7 @@ function listarDatos() {
 
 
     if ((id == "") || (descripcion == "") || (valorUnit == "") || (stock == "")) {
-        alert("Los campos no pueden quedar vacios");
+        alert("Completa los campos vacios");
 
     } else {
         let tabla = document.getElementById('tabla-principal');
