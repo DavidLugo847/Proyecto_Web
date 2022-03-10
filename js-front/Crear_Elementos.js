@@ -51,7 +51,7 @@ function listarDatos() {
 
         let info1 = document.createTextNode(id);
         let info2 = document.createTextNode(descripcion);
-        let info3 = document.createTextNode(valorUnit);
+        let info3 = document.createTextNode("$" + new Intl.NumberFormat('es-LA').format(valorUnit));
         let info4 = document.createTextNode(stock);
 
         celda1.appendChild(info1);
