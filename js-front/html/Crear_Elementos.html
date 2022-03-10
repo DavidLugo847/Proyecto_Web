@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Crear_Elementos.css">
+    <title>Crear elementos con JS</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="main-content">
+            <div>
+                <h2>Registrar Productos</h2>
+            </div>
+            <div>
+                <input id="id" class="idprod" type="text" placeholder="Codigo del Producto">
+            </div>
+            <div>
+                <label>Descripcion</label><br>
+                <input id="desc" class="descripcion" type="text" placeholder="Ej: Productos del campo...">
+            </div>
+            <div>
+                <label>Valor Unitario</label><br>
+                <input id="vlru" class="vlrunit" type="text" placeholder="Ej: $3.000">
+            </div>
+            <div>
+                <label>Unidades en Stock</label><br>
+                <input id="stock" class="stock" type="number">
+            </div>
+            <input class="btnsubmit" type="button" onclick="listarDatos();" value="Crear Tabla" />
+        </div>
+
+
+        <div id="tabla">
+
+        </div>
+    </div>
+</body>
+<script src="../Crear_Elementos.js"></script>
+
+</html>

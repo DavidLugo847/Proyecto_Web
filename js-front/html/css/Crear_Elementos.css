@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.679);
+    background-image: url("https://c0.wallpaperflare.com/preview/592/237/178/malaga-calle-marques-de-larios-spain-paisaje-urbano.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+.th-style {
+    color: darkgoldenrod;
+    border: 1px solid rgb(70, 70, 70);
+}
+
+.main-content {
+    width: 45%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.836);
+    display: grid;
+    grid-template-columns: repeat(200px);
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    grid-template-areas: "a a" "b b" "c c" "d e";
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content div:nth-child(1) {
+    grid-area: a;
+    margin-top: 1em;
+}
+
+.main-content div:nth-child(2) {
+    grid-area: b;
+}
+
+.main-content div:nth-child(3) {
+    grid-area: c;
+}
+
+.main-content div:nth-child(4) {
+    grid-area: d;
+}
+
+.main-content div:nth-child(5) {
+    grid-area: e;
+    margin-left: 24px;
+}
+
+.main-content div input {
+    outline: none;
+    padding-left: 1em;
+    margin-top: .5em;
+    background: rgba(255, 0, 0, 0);
+}
+
+.idprod {
+    height: 40px;
+    border: none;
+    border-bottom: 1px black solid;
+    outline: none;
+}
+
+.descripcion {
+    width: 500px;
+    height: 40px;
+    border: 1px black solid;
+}
+
+.vlrunit,
+.stock {
+    width: 230px;
+    height: 40px;
+    outline: none;
+    border: 1px black solid;
+}
+
+.btnsubmit {
+    margin-top: 1em;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(17, 121, 201);
+    cursor: pointer;
+}
+
+.btnsubmit:hover {
+    background: rgb(8, 127, 153);
+}
+
+#content {
+    width: 55%;
+    height: 100vh;
+    background: red;
+}
+
+.tabla {
+    margin-left: 5em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tabla th {
+    border: 1px solid rgb(104, 104, 104);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 3em;
+}
+
+.tabla td {
+    border: 1px solid rgb(104, 104, 104);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.tabla tr:nth-child(even) {
+    background: #555555;
+}
