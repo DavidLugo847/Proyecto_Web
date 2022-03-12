@@ -40,3 +40,13 @@ h1 {
     align-self: center;
     justify-self: center;
 }
+
+.img-cont {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+
+.img-style {
+    width: 100px;
+}
