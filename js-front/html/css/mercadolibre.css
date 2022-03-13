@@ -68,8 +68,12 @@
         flex-direction: row;
     }
     
+    .cont-prod:active {
+        background-color: rgba(0, 0, 0, 0.131);
+    }
+    
     .img-cont {
-        margin: 1em 0 0 1em;
+        margin: 1em 0 1em 1em;
         width: 150px;
         height: 150px;
         background: rgba(0, 0, 0, 0.056);
@@ -85,7 +89,10 @@
         margin: 1em 0 0 1em;
         width: 50%;
         height: 150px;
-        background: rgb(255, 255, 255);
+    }
+    
+    .text-cont:active {
+        background-color: rgba(0, 0, 0, 0);
     }
     
     .nombre-auto {
@@ -98,16 +105,25 @@
     .precio-auto {
         margin-top: 0.5em;
         font-family: "Proxima Nova", -apple-system, Helvetica Neue, Helvetica, "Roboto", Arial, sans-serif;
-        ;
         font-size: 1.2em;
     }
     
-    .anyo-auto {
-        font-size: 0.5em;
+    .anyo-auto,
+    .km-auto,
+    .ciudad-auto {
+        font-size: .8em;
         color: rgba(0, 0, 0, 0.37);
+        display: inline-block;
+        font-family: "Proxima Nova", -apple-system, Helvetica Neue, Helvetica, "Roboto", Arial, sans-serif;
     }
     
-    .km-auto {
-        font-size: 0.5em;
-        color: rgba(0, 0, 0, 0.37);
+    .cont-line {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    }
+    
+    .txt-busqueda {
+        font-family: "Proxima Nova", -apple-system, Helvetica Neue, Helvetica, "Roboto", Arial, sans-serif;
+        font-size: 0.8em;
+        margin: 0.5em 0 0 1em;
+        color: rgba(0, 0, 0, 0.514);
     }
