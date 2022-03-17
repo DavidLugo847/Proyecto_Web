@@ -9,7 +9,9 @@ function Automovil(marca, modelo, anyo, valor, kilometraje, ciudad, imagen) {
 
 }
 
+
 let auto1 = new Automovil("Toyota", "Supra MK4", "1995", "400000000", "251000", "Pitalito - Huila", "img/supra.jpg");
+
 let auto2 = new Automovil("Mazda", "RX7", "1991", "250000000", "140000", "Pitalito - Huila", "img/rx7.jpeg");
 let opcion;
 
@@ -81,13 +83,20 @@ function mostrarInfo() {
     contenedorPrincipal.appendChild(lineCont);
 }
 
+function borrar() {
+    let cuerpo = document.getElementById("main-content");
+    cuerpo.innerHTML = "";
+}
+
 window.addEventListener("keydown", function(event) {
     let busqueda = document.getElementById("busqueda").value;
     if (event.key == "Enter") {
         if (String(busqueda).toLowerCase() == "toyota supra") {
+            borrar();
             opcion = auto1
             mostrarInfo(opcion);
         } else if (String(busqueda).toLowerCase() == "mazda rx7") {
+            borrar();
             opcion = auto2;
             mostrarInfo(opcion);
         } else {
