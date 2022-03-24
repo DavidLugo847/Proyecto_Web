@@ -32,7 +32,7 @@ let Vuelo = [{
     "horaLlegada": horaLlegada1Str,
     "origen": "BOG",
     "destino": "ADZ",
-    "precio": "cop .000",
+    "precio": "cop 160.000",
     "duracion": duracion,
     "tipo": "Directo"
 
