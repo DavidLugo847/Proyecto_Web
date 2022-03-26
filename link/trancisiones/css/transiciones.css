@@ -1,0 +1,79 @@
+.main-content {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4,
+.cont5 {
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 100px;
+    margin: 5em;
+}
+
+.cont1 {
+    background: red;
+    transition: width 2s linear 1s;
+}
+
+.cont1:hover {
+    width: 300px;
+}
+
+.cont2 {
+    background: rgb(34, 0, 255);
+    transition: width 2s linear 1s;
+    transition-duration: 3s, 1s;
+    transition-property: margin, background, rotate;
+}
+
+.cont2:hover {
+    margin: 10em;
+    background: red;
+    rotate: 100;
+}
+
+.cont3 {
+    background: rgb(255, 217, 0);
+    transition: width 2s linear 1s;
+    transition-duration: 3s;
+    transition-property: margin, background, rotate;
+}
+
+.cont3:hover {
+    margin: 1em;
+    background: red;
+    rotate: 100;
+}
+
+.cont4 {
+    background: rgb(13, 255, 0);
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+
+.cont4:hover {
+    margin: 10em;
+    background: rgb(0, 132, 255);
+}
+
+.cont6 {
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50% at top left);
+    background: gold;
+    transition: width 1500ms;
+}
+
+.cont6:hover {
+    clip-path: circle(80% at top left);
+    width: 600px;
+    height: 600px;
+}
